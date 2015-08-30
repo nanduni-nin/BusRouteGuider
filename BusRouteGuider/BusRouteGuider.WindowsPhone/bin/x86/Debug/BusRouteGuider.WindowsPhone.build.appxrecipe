@@ -6,7 +6,7 @@
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>b7d45a4e-45ae-49ee-a10f-c4af8cbd81db</PackageIdentityName>
+    <PackageIdentityName>f7f9a97c-247b-44f1-a3e1-3afc6340d3af</PackageIdentityName>
     <IntermediateOutputPath>c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
@@ -30,22 +30,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\splas.scale-140.png">
       <PackagePath>Assets\splas.scale-140.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
@@ -60,6 +56,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\bigIcon.scale-240.jpg">
       <PackagePath>Assets\bigIcon.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture.scale-100.jpg">
       <PackagePath>Assets\Capture.scale-100.jpg</PackagePath>
@@ -67,11 +64,12 @@
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture.scale-240.jpg">
       <PackagePath>Assets\Capture.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture2.jpg">
-      <PackagePath>Assets\Capture2.jpg</PackagePath>
+    <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture2.scale-240.jpg">
+      <PackagePath>Assets\Capture2.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\log.scale-240.jpg">
       <PackagePath>Assets\log.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\logo.jpg">
       <PackagePath>Assets\logo.jpg</PackagePath>
@@ -81,6 +79,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\menuLogo.scale-240.jpg">
       <PackagePath>Assets\menuLogo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-100.jpg">
+      <PackagePath>Assets\SplashScreen.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-140.jpg">
+      <PackagePath>Assets\SplashScreen.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-240.jpg">
+      <PackagePath>Assets\SplashScreen.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.Shared\data.txt">
       <PackagePath>data.txt</PackagePath>

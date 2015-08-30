@@ -7,8 +7,8 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="b7d45a4e-45ae-49ee-a10f-c4af8cbd81db" Publisher="CN=Nands" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="b7d45a4e-45ae-49ee-a10f-c4af8cbd81db" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="f7f9a97c-247b-44f1-a3e1-3afc6340d3af" Publisher="CN=Nands" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="f7f9a97c-247b-44f1-a3e1-3afc6340d3af" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>BusRouteGuider.WindowsPhone</DisplayName>
     <PublisherDisplayName>Nands</PublisherDisplayName>
@@ -23,14 +23,22 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="BusRouteGuider.WindowsPhone.exe" EntryPoint="BusRouteGuider.WindowsPhone.App">
-      <m3:VisualElements DisplayName="BusRouteGuider.WindowsPhone" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="BusRouteGuider.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
-        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" />
-        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+      <m3:VisualElements DisplayName="Bus Route Guider" Square150x150Logo="Assets\bigIcon.jpg" Square44x44Logo="Assets\log.jpg" Description="BusRouteGuider.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\menuLogo.jpg">
+          <m3:ShowNameOnTiles>
+            <m3:ShowOn Tile="square150x150Logo" />
+          </m3:ShowNameOnTiles>
+        </m3:DefaultTile>
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="portrait" />
+        </m3:InitialRotationPreference>
+        <m3:SplashScreen Image="Assets\SplashScreen.jpg" />
       </m3:VisualElements>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClientServer" />
+    <DeviceCapability Name="location" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="SharedGUID" Value="2dac625e-497b-4133-96a0-ba74dc21a128" />

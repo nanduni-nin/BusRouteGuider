@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="BusRouteGuider.ShowRoutes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BusRouteGuider"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <GridView x:ConnectionId='1' x:Name="Menu" Margin="1,6,272,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" Foreground="#FFFBF7F7"                           >
+            <TextBlock x:Name="TxtBlckMenu" Text="Menu" Margin="30,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="66"/>
+        </GridView>
+        <GridView x:ConnectionId='2' x:Name="Help" Margin="272,6,1,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True"                           >
+            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="69.333,3,4.333,1.5" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
+        </GridView>
+        <GridView x:Name="Map" Margin="137,6,136,0" Height="66" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True" Foreground="#FFFBF7F7">
+            <TextBlock x:Name="TxtBlckMenu1" Text="Map" Margin="38,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81"/>
+        </GridView>
+        <TextBlock HorizontalAlignment="Center" Text="Available Routes" VerticalAlignment="Top" Height="38" FontFamily="Cambria" FontSize="30" Width="257" FontWeight="Bold" Margin="74,82,69,520" />
+
+        <ListBox x:Name="ListRoutes" HorizontalAlignment="Stretch" ScrollViewer.HorizontalScrollMode="Enabled"  ScrollViewer.HorizontalScrollBarVisibility="Visible" Margin="0,120,0,53" VerticalAlignment="Stretch" Width="400" FontFamily="Cambria" FontSize="15" FontWeight="Bold"/>
+        <Button x:ConnectionId='3' x:Name="cancelBtn" Content="Cancel" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="117"                          Height="35"/>
+
+    </Grid>
+
+</Page>
+
+
+

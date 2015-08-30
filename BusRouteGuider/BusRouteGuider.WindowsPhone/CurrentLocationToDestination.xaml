@@ -8,7 +8,36 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
     <Grid>
+        <GridView x:Name="Menu" Margin="1,6,272,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
+            <TextBlock x:Name="TxtBlckMenu" Text="Menu" Margin="30,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="66"/>
+        </GridView>
+        <GridView x:Name="Help" Margin="272,6,1,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" ItemClick="Help_ItemClick">
+            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="69.333,3,4.333,1.5" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
+        </GridView>
+        <GridView x:Name="Map" Margin="137,6,136,0" Height="66" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True" Foreground="#FFFBF7F7" FontFamily="Segoe UI Semibold">
+            <TextBlock x:Name="TxtBlckMenu1" Text="Map" Margin="38,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81"/>
+        </GridView>
+        <TextBlock HorizontalAlignment="Left" Margin="62,368,0,0" TextWrapping="Wrap" Text="Destination:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
+        <Button Content="Search" Background="#FF0F897F" HorizontalAlignment="Left" Margin="58,560,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click"/>
+        <Button Content="Cancel" Background="#FF0F897F" HorizontalAlignment="Left" Margin="238,560,0,0" VerticalAlignment="Top" Width="142"/>
+
+        <AutoSuggestBox  x:Name="textLoc" TextChanged="AutoSuggestBox_TextChanged" HorizontalAlignment="Left" Margin="59,428,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989">
+            <AutoSuggestBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding}" />
+                    </StackPanel>
+                </DataTemplate>
+            </AutoSuggestBox.ItemTemplate>
+        </AutoSuggestBox>
+
+
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="40,272,0,0" TextWrapping="Wrap" Text="Current location will be tracked using GPS. Please turn GPS on." VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" />
+        <TextBlock HorizontalAlignment="Left" Margin="32,127,0,0" TextWrapping="Wrap" Text="Find Routes from Current Location to Destination" VerticalAlignment="Top" Height="108" FontFamily="Cambria" FontSize="30" Width="362" FontWeight="Bold" />
 
     </Grid>
 </Page>

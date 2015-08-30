@@ -26,5 +26,10 @@ namespace BusRouteGuider
         {
             this.InitializeComponent();
         }
+
+        private void Menu_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }

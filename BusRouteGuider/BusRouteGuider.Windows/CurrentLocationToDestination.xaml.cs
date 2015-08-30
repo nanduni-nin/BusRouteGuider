@@ -26,5 +26,21 @@ namespace BusRouteGuider
         {
             this.InitializeComponent();
         }
+
+       
+        private void Menu_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void TxtBlckMap_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Map));
+        }
+
+        private void TxtBlckHelp_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Help));
+        }
     }
 }

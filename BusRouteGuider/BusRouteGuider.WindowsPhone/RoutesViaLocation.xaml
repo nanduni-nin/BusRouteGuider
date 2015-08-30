@@ -9,6 +9,28 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <GridView x:Name="Menu" Margin="1,6,272,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
+            <TextBlock x:Name="TxtBlckMenu" Text="Menu" Margin="30,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="66"/>
+        </GridView>
+        <GridView x:Name="Help" Margin="272,6,1,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" ItemClick="Help_ItemClick">
+            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="69.333,3,4.333,1.5" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
+        </GridView>
+        <GridView x:Name="Map" Margin="137,6,136,0" Height="66" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True" Foreground="#FFFBF7F7">
+            <TextBlock x:Name="TxtBlckMap" Text="Map" Margin="38,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81"/>
+        </GridView>
+        <TextBlock HorizontalAlignment="Left" Margin="66,315,0,0" TextWrapping="Wrap" Text="Please select the location :" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" Width="334" />
+        <Button x:Name="btnSearch" Content="Search" Background="#FF0F897F" Margin="64,560,0,0" VerticalAlignment="Top" Width="142" FontWeight="Bold" Click="btnSearch_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" Background="#FF0F897F" HorizontalAlignment="Left" Margin="244,560,0,0" VerticalAlignment="Top" Width="142" FontWeight="Bold" Click="btnCancel_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,145,0,0" TextWrapping="Wrap" Text="Find Routes via a Location" VerticalAlignment="Top" Height="48" FontFamily="Cambria" FontSize="30" Width="364" FontWeight="Bold" />
 
+        <AutoSuggestBox  x:Name="textLoc" TextChanged="AutoSuggestBox_TextChanged" HorizontalAlignment="Left" Margin="64,374,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989">
+            <AutoSuggestBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding}" />
+                    </StackPanel>
+                </DataTemplate>
+            </AutoSuggestBox.ItemTemplate>
+        </AutoSuggestBox>
     </Grid>
 </Page>

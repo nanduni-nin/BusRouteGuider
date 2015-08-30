@@ -8,7 +8,46 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
+
     <Grid>
+        <GridView x:Name="Menu" Margin="1,6,272,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick" ToolTipService.ToolTip="Back to Main Page" >
+            <TextBlock x:Name="TxtBlckMenu" Text="Menu" Margin="30,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="66"/>
+        </GridView>
+        <GridView x:Name="Help" Margin="272,6,1,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" ToolTipService.ToolTip="Need Help?">
+            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="69.333,3,4.333,1.5" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
+        </GridView>
+        <GridView x:Name="Map" Margin="137,6,136,0" Height="66" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True" ItemClick="Map_ItemClick" Foreground="#FFFBF7F7" ToolTipService.ToolTip="View the Map" FontFamily="Segoe UI Semibold">
+            <TextBlock x:Name="TxtBlckMap" Text="Map" Margin="38,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81" />
+        </GridView>
+        <TextBlock HorizontalAlignment="Left" Margin="60,290,0,0" TextWrapping="Wrap" Text="Start Location:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
+        <TextBlock HorizontalAlignment="Left" Margin="60,413,0,0" TextWrapping="Wrap" Text="Destination:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
+        <Button x:Name="searchAllBtn" Content="All Routes" Background="#FF0F897F" HorizontalAlignment="Left" Margin="60,518,0,0" VerticalAlignment="Top" Width="142" Click="AllRoutesBtn_Click" />
+        <Button x:Name="searchBestBtn" Content="Best Routes" Background="#FF0F897F" HorizontalAlignment="Left" Margin="240,518,0,0" VerticalAlignment="Top" Width="142" Click="BestRoutesBtn_Click" />
+
+        <Button x:Name="cancelBtn" Content="Cancel" HorizontalAlignment="Center" Margin="129,0,136,0" VerticalAlignment="Bottom" Width="135" Click="cancelBtn_Click" Height="54"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="42,149,0,0" TextWrapping="Wrap" Text="Find Routes from Start to Destination" VerticalAlignment="Top" Height="68" FontFamily="Cambria" FontSize="30" Width="342" FontWeight="Bold" />
+
+        <AutoSuggestBox x:Name="textStart" TextChanged="AutoSuggestBox_TextChanged" Margin="60,326,0,0" Width="322" HorizontalAlignment="Left" PlaceholderText="Enter a location" VerticalAlignment="Top" Foreground="#FFF78989">
+            <AutoSuggestBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding}" />
+                    </StackPanel>
+                </DataTemplate>
+            </AutoSuggestBox.ItemTemplate>
+        </AutoSuggestBox>
+
+        <AutoSuggestBox  x:Name="textEnd" TextChanged="AutoSuggestBox_TextChanged" HorizontalAlignment="Left" Margin="60,456,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989">
+            <AutoSuggestBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding}" />
+                    </StackPanel>
+                </DataTemplate>
+            </AutoSuggestBox.ItemTemplate>
+        </AutoSuggestBox>
 
     </Grid>
 </Page>

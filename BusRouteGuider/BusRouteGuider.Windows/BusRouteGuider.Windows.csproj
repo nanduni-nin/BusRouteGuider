@@ -106,26 +106,26 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllRoutes.xaml.cs">
+    <Compile Include="View\AllRoutes.xaml.cs">
       <DependentUpon>AllRoutes.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CurrentLocationToDestination.xaml.cs">
+    <Compile Include="View\CurrentLocationToDestination.xaml.cs">
       <DependentUpon>CurrentLocationToDestination.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Help.xaml.cs">
+    <Compile Include="View\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Map.xaml.cs">
+    <Compile Include="View\Map.xaml.cs">
       <DependentUpon>Map.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoutesAtLocation.xaml.cs">
+    <Compile Include="View\RoutesAtLocation.xaml.cs">
       <DependentUpon>RoutesAtLocation.xaml</DependentUpon>
     </Compile>
-    <Compile Include="StartToDestination.xaml.cs">
+    <Compile Include="View\StartToDestination.xaml.cs">
       <DependentUpon>StartToDestination.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -146,31 +146,31 @@
     <Content Include="Assets\title.png" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="AllRoutes.xaml">
+    <Page Include="View\AllRoutes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CurrentLocationToDestination.xaml">
+    <Page Include="View\CurrentLocationToDestination.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Help.xaml">
+    <Page Include="View\Help.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="View\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Map.xaml">
+    <Page Include="View\Map.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RoutesAtLocation.xaml">
+    <Page Include="View\RoutesAtLocation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="StartToDestination.xaml">
+    <Page Include="View\StartToDestination.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

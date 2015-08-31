@@ -41,3 +41,6 @@ c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\UnitTestApp1
 c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\qualifiers.txt.intermediate
 c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\ProjectArchitectures.txt
+c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\UnitTestsBusRouteGuider.csprojResolveAssemblyReference.cache
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\BusRouteGuider.WindowsPhone.exe
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\BusRouteGuider.WindowsPhone.pdb

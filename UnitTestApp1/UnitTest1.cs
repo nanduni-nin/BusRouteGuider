@@ -54,23 +54,20 @@ namespace UnitTestApp1
         }
 
         [TestMethod]
-        public void TestRoutesInFunctionality()
+        public void TestLocationFunctionality()
         {
             BusRouteGuider.View.SearchRoute alg = new BusRouteGuider.View.SearchRoute();
-            alg.start();
-            String routeNumber = "002";
-            String actual = "success";
-            Dictionary<String, BusRouteGuider.View.Route> routes = alg.getAllRoutes();
-            String path = routes[routeNumber].getPathForTesting();
-            if(path.Contains("Warakapola")){
+            String actual = "";
+            String expected = "success";
+            Dictionary<String, BusRouteGuider.View.Location> locations = alg.getAllLocations();
+            if(locations.ContainsKey("Warakapola")){
                 actual = "success";
             }
-            String expected = "success";
             Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
-        public void TestRoutesFunctionality()
+        public void TestRoutesInPath()
         {
             BusRouteGuider.View.SearchRoute alg = new BusRouteGuider.View.SearchRoute();
             alg.start();

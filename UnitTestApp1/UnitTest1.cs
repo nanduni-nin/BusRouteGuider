@@ -45,8 +45,10 @@ namespace UnitTestApp1
             LinkedList<BusRouteGuider.View.Route> list = locations[town].getRoutes();
             String expected = "success";
             String actual = "";
-            foreach(BusRouteGuider.View.Route r  in list){
-                if (r.getRouteNumber().Equals("430")) {
+            foreach (BusRouteGuider.View.Route r in list)
+            {
+                if (r.getRouteNumber().Equals("430"))
+                {
                     actual = "success";
                 }
             }
@@ -60,7 +62,8 @@ namespace UnitTestApp1
             String actual = "";
             String expected = "success";
             Dictionary<String, BusRouteGuider.View.Location> locations = alg.getAllLocations();
-            if(locations.ContainsKey("Warakapola")){
+            if (locations.ContainsKey("Warakapola"))
+            {
                 actual = "success";
             }
             Assert.AreEqual(expected, actual);
@@ -75,7 +78,7 @@ namespace UnitTestApp1
             Dictionary<String, BusRouteGuider.View.Route> routes = alg.getAllRoutes();
             String path = routes[routeNumber].getPathForTesting();
             String expected = "Fort->Kiribathgoda->Miriswatha->Nittambuwa->Warakapola->Nelundeniya->Galigamuwa->Kegalle->Mawanella->Kadugannawa->Peradeniya->Kandy";
-            Assert.AreEqual(expected,path);
+            Assert.AreEqual(expected, path);
         }
 
 

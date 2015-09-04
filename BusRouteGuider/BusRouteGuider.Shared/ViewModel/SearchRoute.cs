@@ -55,6 +55,7 @@ namespace BusRouteGuider.ViewModel
             {
                 temp = lines[i].Split('|');
                 route = new Route(temp[0]);
+                //Debug.WriteLine(temp[0] + "-------" + temp[1] + "------------" + temp[2]);
                 route = processInput(temp[1], route);
                 route = processInput(temp[2], route);
                 
@@ -64,6 +65,7 @@ namespace BusRouteGuider.ViewModel
                     routes.Add(temp[0], route);
                 }
             }
+
         }
 
              

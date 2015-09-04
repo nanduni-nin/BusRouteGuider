@@ -44,43 +44,89 @@ c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\UnitTestApp1
 c:\users\nands\documents\visual studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\UnitTestsBusRouteGuider.csprojResolveAssemblyReference.cache
 C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\BusRouteGuider.WindowsPhone.exe
 C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\BusRouteGuider.WindowsPhone.pdb
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\layout.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\layout.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\Resources.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\Resources.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\pri.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\pri.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\priconfig.xml
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\priconfig.xml.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\layout.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\layout.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\Resources.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\Resources.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\pri.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\pri.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\priconfig.xml
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\priconfig.xml.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\layout.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\layout.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\Resources.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\Resources.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\pri.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\pri.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\priconfig.xml
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\priconfig.xml.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\layout.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\layout.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\Resources.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\Resources.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\pri.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\pri.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\priconfig.xml
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\priconfig.xml.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\layout.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\layout.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\Resources.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\Resources.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\pri.resfiles
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\pri.resfiles.intermediate
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\priconfig.xml
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\priconfig.xml.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\UnitTestApp1.dll
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\UnitTestApp1.pdb
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\resources.pri
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\AppxManifest.xml
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\UnitTestsBusRouteGuider.build.appxrecipe
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core.dll
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\BusRouteGuider.WindowsPhone.exe
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\BusRouteGuider.WindowsPhone.pdb
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\UnitTestsBusRouteGuider.csprojResolveAssemblyReference.cache
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\UnitTestApp1.dll
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\UnitTestApp1.pdb
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\en-US\Microsoft.VisualStudio.TestPlatform.Core.Resources.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\en-US\Microsoft.VisualStudio.TestPlatform.ObjectModel.CommonResources.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\en-US\Microsoft.VisualStudio.TestPlatform.ObjectModel.EqtMessages.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\en-US\Microsoft.VisualStudio.TestPlatform.ObjectModel.Resources.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\en-US\Microsoft.VisualStudio.TestPlatform.ObjectModel.ValidateArgStrings.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\en-US\Microsoft.VisualStudio.TestPlatform.TestExecutor.Resources.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\en-US\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.FrameworkMessages.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\en-US\Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.Framework.Messages.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\en-US\Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.Resources.resw
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\UnitTestsBusRouteGuider.csproj.GenerateResource.Cache
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core.pri
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\qualifiers.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel.pri
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\qualifiers.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.pri
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\qualifiers.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.pri
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\qualifiers.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target.pri
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\qualifiers.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\priconfig.xml
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\layout.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\resources.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\pri.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\qualifiers.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\layout.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\layout.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\Resources.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\Resources.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\pri.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\pri.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\priconfig.xml
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Core\priconfig.xml.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\layout.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\layout.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\Resources.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\Resources.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\pri.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\pri.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\priconfig.xml
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\priconfig.xml.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\layout.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\layout.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\Resources.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\Resources.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\pri.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\pri.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\priconfig.xml
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\priconfig.xml.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\layout.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\layout.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\Resources.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\Resources.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\pri.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\pri.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\priconfig.xml
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\priconfig.xml.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\layout.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\layout.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\Resources.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\Resources.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\pri.resfiles
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\pri.resfiles.intermediate
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\priconfig.xml
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target\priconfig.xml.intermediate

@@ -1,2 +1,2 @@
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\BusRouteGuider.WindowsPhone.csproj;neutral
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\UnitTestsBusRouteGuider.csproj;x86
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\BusRouteGuider.WindowsPhone.csproj;neutral
+C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\UnitTestsBusRouteGuider.csproj;x86

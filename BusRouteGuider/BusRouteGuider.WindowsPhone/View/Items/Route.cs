@@ -25,29 +25,10 @@ namespace BusRouteGuider.View
             return routeNumber;
         }
 
-        public String getPath()
-        {
+        public String getPath() { 
             String s = "";
-            String previous = "";
-            int length = routeIn.Count / 2;
-            int count = 1;
-            foreach (Location loc in routeIn)
-            {
-                if ((!loc.getName().Equals(previous)) && (count != length))
-                {
-                    s = s + loc.getName() + "->";
-                    previous = loc.getName();
-                    count++;
-                }
-                else if ((!loc.getName().Equals(previous)) && (count == length))
-                {
-                    s = s + loc.getName();
-                    previous = loc.getName();
-                }
-                else
-                {
-                    break;
-                }
+            foreach(Location loc in routeIn){
+                s = s + loc.getName() + "->" ;
             }
             return s;
         }
@@ -116,6 +97,7 @@ namespace BusRouteGuider.View
             return false;
         }
 
+
         public String getPathForTesting()
         {
             String s = "";
@@ -143,7 +125,6 @@ namespace BusRouteGuider.View
             return s;
         }
 
-
-
+        
     }
 }

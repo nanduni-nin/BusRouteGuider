@@ -7,22 +7,22 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>d5c35502-647d-4d8c-ac78-ee58661be7a0</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\UnitTestApp1.dll">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\UnitTestApp1.dll">
       <PackagePath>UnitTestApp1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\UnitTestApp1.pdb">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\UnitTestApp1.pdb">
       <PackagePath>UnitTestApp1.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.pdb">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.pdb">
       <PackagePath>BusRouteGuider.WindowsPhone.pdb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\12.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
@@ -37,7 +37,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\MSTestFramework\12.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
       <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.exe">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.exe">
       <PackagePath>BusRouteGuider.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\12.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target.dll">
@@ -55,109 +55,109 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\12.0\Redist\CommonConfiguration\neutral\vstest_executionengine_platformbridge.winmd">
       <PackagePath>vstest_executionengine_platformbridge.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\banner.PNG">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\banner.PNG">
       <PackagePath>Assets\banner.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\bus.PNG">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\bus.PNG">
       <PackagePath>Assets\bus.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\img.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\img.png">
       <PackagePath>Assets\img.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\splas.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\splas.scale-140.png">
       <PackagePath>Assets\splas.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\title.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\title.png">
       <PackagePath>Assets\title.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\bigIcon.scale-240.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\bigIcon.scale-240.jpg">
       <PackagePath>Assets\bigIcon.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture.scale-100.jpg">
       <PackagePath>Assets\Capture.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture.scale-240.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture.scale-240.jpg">
       <PackagePath>Assets\Capture.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture2.scale-240.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\Capture2.scale-240.jpg">
       <PackagePath>Assets\Capture2.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\log.scale-240.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\log.scale-240.jpg">
       <PackagePath>Assets\log.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\logo.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\logo.jpg">
       <PackagePath>Assets\logo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\menulog.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\menulog.jpg">
       <PackagePath>Assets\menulog.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\menuLogo.scale-240.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\menuLogo.scale-240.jpg">
       <PackagePath>Assets\menuLogo.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-100.jpg">
       <PackagePath>Assets\SplashScreen.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-140.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-140.jpg">
       <PackagePath>Assets\SplashScreen.scale-140.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-240.jpg">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\Assets\SplashScreen.scale-240.jpg">
       <PackagePath>Assets\SplashScreen.scale-240.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.Shared\data.txt">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.Shared\data.txt">
       <PackagePath>data.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\CurrentLocationToDestination.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\CurrentLocationToDestination.xbf">
       <PackagePath>View\CurrentLocationToDestination.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\Help.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\Help.xbf">
       <PackagePath>View\Help.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\Map.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\Map.xbf">
       <PackagePath>View\Map.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\RoutesViaLocation.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\RoutesViaLocation.xbf">
       <PackagePath>View\RoutesViaLocation.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\ShowRoutes.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\ShowRoutes.xbf">
       <PackagePath>View\ShowRoutes.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\StartToDestination.xbf">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\View\StartToDestination.xbf">
       <PackagePath>View\StartToDestination.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.xr.xml">
       <PackagePath>BusRouteGuider.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\UnitTestApp1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\UnitTestApp1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

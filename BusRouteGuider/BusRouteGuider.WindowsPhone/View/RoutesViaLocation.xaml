@@ -10,22 +10,22 @@
 
     <Grid Style="{StaticResource LayoutGridStyle2}">
         <!--Menu button -->
-        <GridView x:Name="Menu" Margin="1,6,272,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick" ToolTipService.ToolTip="Back to Main Page" >
-            <TextBlock x:Name="TxtBlckMenu" Text="Menu" Margin="30,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="66"/>
+        <GridView x:Name="Menu" Margin="1,0,272,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick" ToolTipService.ToolTip="Back to Main Page" >
+            <TextBlock x:Name="TxtBlckMenu" Text="Menu" Margin="30,15,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="66"/>
         </GridView>
 
         <!--Help button -->
-        <GridView x:Name="Help" Margin="272,6,1,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" ToolTipService.ToolTip="Need Help?">
-            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="85,0,0,0" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
+        <GridView x:Name="Help" Margin="272,0,1,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" ToolTipService.ToolTip="Need Help?">
+            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="85,15,0,0" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
         </GridView>
 
         <!--Map button -->
-        <GridView x:Name="Map" Margin="137,6,136,0" Height="66" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True" ItemClick="Map_ItemClick" Foreground="#FFFBF7F7" ToolTipService.ToolTip="View the Map" FontFamily="Segoe UI Semibold">
-            <TextBlock x:Name="TxtBlckMap" Text="Map" Margin="65,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81" />
+        <GridView x:Name="Map" Margin="137,0,136,0" Height="66" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True" ItemClick="Map_ItemClick" Foreground="#FFFBF7F7" ToolTipService.ToolTip="View the Map" FontFamily="Segoe UI Semibold">
+            <TextBlock x:Name="TxtBlckMap" Text="Map" Margin="65,15,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81" />
         </GridView>
 
         <!--Details-->
-        <TextBlock HorizontalAlignment="Left" Margin="34,145,0,0" TextWrapping="Wrap" Text="Find Routes via a Location" VerticalAlignment="Top" Height="48" FontFamily="Cambria" FontSize="30" Width="364" FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,145,0,0" TextWrapping="Wrap" Text="Find Routes via a Location" VerticalAlignment="Top" Height="48" FontFamily="Cambria" FontSize="30" Width="364" FontWeight="Bold" />
 
         <!--Text box for location-->
         <TextBlock HorizontalAlignment="Left" Margin="66,315,0,0" TextWrapping="Wrap" Text="Please select the location :" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" Width="334" />

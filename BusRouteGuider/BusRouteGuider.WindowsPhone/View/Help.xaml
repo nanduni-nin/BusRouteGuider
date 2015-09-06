@@ -8,14 +8,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Style="{StaticResource LayoutGridStyle2}">
         <!-- Menu Button -->
-        <GridView Margin="1,6,175,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
+        <GridView Margin="0,0,175,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
             <TextBlock x:Name="TxtBlckMenu" Margin="90,20,0,0" Text="Menu" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontSize="23" Width="66"/>
         </GridView>
 
         <!-- Map Button -->
-        <GridView Margin="225,6,4,0" Height="66" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True" ItemClick="Map_ItemClick" Foreground="#FFFBF7F7">
+        <GridView Margin="225,0,4,0" Height="66" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True" ItemClick="Map_ItemClick" Foreground="#FFFBF7F7">
             <TextBlock x:Name="TxtBlckMenu1" Margin="90,20,0,0" Text="Map" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontSize="23" Width="81"/>
         </GridView>
 
@@ -124,12 +124,12 @@
         <RadioButton x:Name="rdBtnCurrentDest" Content="Current Location to Destination" GroupName="Group1" HorizontalAlignment="Left" Margin="72,242,0,0" VerticalAlignment="Top" Click="rdBtnCurrentDest_Click" FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:Name="rdBtnAllRoutes" Content="All Routes" GroupName="Group1" HorizontalAlignment="Left" Margin="72,344,0,0" VerticalAlignment="Top" Click="rdBtnAllRoutes_Click" FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:Name="rdBtnBusesAtLocation" Content="Buses at a Particular Location" GroupName="Group1" HorizontalAlignment="Left" Margin="72,293,0,0" VerticalAlignment="Top" Click="rdBtnBusesAtLocation_Click" FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
-        <TextBlock HorizontalAlignment="Left" Margin="34,106,0,0" TextWrapping="Wrap" Text="Need Help?" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe Marker" Foreground="#FF67C9C1"  />
+        <TextBlock HorizontalAlignment="Left" Margin="34,106,0,0" TextWrapping="Wrap" Text="Need Help?" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe Marker" Foreground="#141F2E"  />
 
         <!--Details-->
         <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="75" Width="351" FontSize="18" Margin="24,0,25,0" FontFamily="SimSun">
         <Run Text="  For More Help, Contact:"/> <LineBreak/> <Run/>
-        <Run Text="     email: nanduni.12@cse.mrt.ac.lk"/> <LineBreak/> <Run/>
+        <Run Text="     email: nandunibw@gmail.com"/> <LineBreak/> <Run/>
         <Run Text="     TP: 0714114256" /> <LineBreak/> <Run/>
         </TextBlock>
 

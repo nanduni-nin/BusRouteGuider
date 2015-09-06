@@ -7,21 +7,19 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <GridView x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
+    <Grid Style="{StaticResource LayoutGridStyle3}">
+        <GridView x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
             <TextBlock x:Name="TxtBlckMenu" Text="Main Menu"  Margin="600.167,25.167,3.167,4.167" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" Height="26" FontSize="30" Width="360"/>
         </GridView>
-        <GridView x:Name="Help" Height="70" Margin="0,90,0,0" VerticalAlignment="Top" Background="#FF67C9C1" Foreground="#FFFBF7F7">
+        <GridView x:Name="Help" Height="70" Margin="0,90,0,0" VerticalAlignment="Top" Background="#FF849EB8" Foreground="#FFFBF7F7">
         </GridView>
 
         <TextBlock x:Name="TxtBlckHelp" HorizontalAlignment="Left" Text="Help" Margin="966,105,0,0" Foreground="White" FontWeight="Bold" FontFamily="Cambria" FontSize="30" Height="44" Width="92" VerticalAlignment="Top" Tapped="TxtBlckHelp_Tapped"/>
         <TextBlock x:Name="TxtBlckMap" HorizontalAlignment="Left" Margin="270,105,0,0" TextWrapping="Wrap" Text="Map" Foreground="White" FontWeight="Bold" FontFamily="Cambria" FontSize="30" VerticalAlignment="Top" Tapped="TxtBlckMap_Tapped"/>
         <TextBlock HorizontalAlignment="Left" Margin="466,203,0,0" TextWrapping="Wrap" Text="Available Routes" VerticalAlignment="Top" Height="68" FontFamily="Cambria" FontSize="50" Width="393" FontWeight="Bold" />
 
-        <Button Content="Cancel" Background="#FF0F897F" FontSize="30" HorizontalAlignment="Left" Margin="604,677,0,0" VerticalAlignment="Top" Width="142"/>
-
-        <Image HorizontalAlignment="Left" Height="78" Margin="10,680,0,0" VerticalAlignment="Top" Width="412" Source="ms-appx:///Assets/title.png"/>
-        <ListBox x:Name="ListRoutes" ScrollViewer.HorizontalScrollMode="Enabled"  ScrollViewer.HorizontalScrollBarVisibility="Visible" Background="#FF67C9C1" HorizontalAlignment="Left" Height="372" Margin="38,284,0,0" VerticalAlignment="Top" Width="1292" FontSize="20" FontWeight="Bold">
+        <Button Content="Cancel" Background="#141F2E" FontSize="30" HorizontalAlignment="Left" Margin="604,677,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click"/>
+        <ListBox x:Name="ListRoutes" ScrollViewer.HorizontalScrollMode="Enabled"  ScrollViewer.HorizontalScrollBarVisibility="Visible" Background="#FF849EB8" HorizontalAlignment="Left" Height="391" Margin="38,284,0,0" VerticalAlignment="Top" Width="1292" FontSize="20" FontWeight="Bold">
         </ListBox>
     </Grid>
 </Page>

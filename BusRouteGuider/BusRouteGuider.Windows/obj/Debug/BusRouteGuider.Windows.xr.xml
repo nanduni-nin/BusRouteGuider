@@ -5,12 +5,13 @@
       <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="Background" />
+      <RootProperty Name="Style" />
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Background" />
       <RootProperty Name="VerticalAlignment" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
@@ -28,7 +29,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
@@ -42,6 +43,7 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="ItemClick" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
@@ -71,14 +73,6 @@
       <RootProperty Name="Height" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Source" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
       <RootProperty Name="Background" />
       <RootProperty Name="HorizontalAlignment" />
@@ -95,6 +89,7 @@
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="BusRouteGuider.AllRoutes" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -102,13 +97,11 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Items" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="FontWeight" />
       <RootProperty Name="Background" />
       <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
     </RootType>
-    <RootType FullName="System.String" />
     <RootType FullName="BusRouteGuider.CurrentLocationToDestination" />
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
       <RootProperty Name="Child" />
@@ -123,6 +116,14 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontFamily" />
       <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />

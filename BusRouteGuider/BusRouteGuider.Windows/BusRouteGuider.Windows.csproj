@@ -136,24 +136,18 @@
     <None Include="BusRouteGuider.Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1116.scale-100.png" />
+    <Content Include="Assets\1116.scale-140.png" />
+    <Content Include="Assets\1116.scale-180.png" />
+    <Content Include="Assets\126.scale-180.png" />
+    <Content Include="Assets\270.scale-180.png" />
+    <Content Include="Assets\620.png" />
+    <Content Include="Assets\868.png" />
+    <Content Include="Assets\90.scale-180.png" />
     <Content Include="Assets\bus route map sri lanka.jpg" />
     <Content Include="Assets\bus.jpg" />
-    <Content Include="Assets\images.jpg" />
-    <Content Include="Assets\Logo.scale-100.png" />
-    <Content Include="Assets\SmallLogo.scale-100.png" />
-    <Content Include="Assets\SplashScreen.scale-100.jpg" />
-    <Content Include="Assets\SplashScreen.scale-100.png" />
-    <Content Include="Assets\SplashScreen.scale-140.jpg" />
-    <Content Include="Assets\SplashScreen.scale-180.jpg" />
-    <Content Include="Assets\Square150x150Logo.scale-100.jpg" />
-    <Content Include="Assets\Square150x150Logo.scale-140.jpg" />
-    <Content Include="Assets\Square150x150Logo.scale-180.jpg" />
-    <Content Include="Assets\Square150x150Logo.scale-80.jpg" />
-    <Content Include="Assets\Square70x70Logo.scale-100.png" />
-    <Content Include="Assets\StoreLogo.scale-100.png" />
-    <Content Include="Assets\StoreLogo.scale-140.png" />
-    <Content Include="Assets\StoreLogo.scale-180.png" />
-    <Content Include="Assets\title.png" />
+    <Content Include="Assets\Empty.png" />
+    <Content Include="Assets\MainScreen.png" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\AllRoutes.xaml">

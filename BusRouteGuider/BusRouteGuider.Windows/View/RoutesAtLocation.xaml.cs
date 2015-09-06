@@ -102,6 +102,11 @@ namespace BusRouteGuider
             this.Frame.Navigate(typeof(Map));
         }
 
+        private void Menu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
         
     }
 }

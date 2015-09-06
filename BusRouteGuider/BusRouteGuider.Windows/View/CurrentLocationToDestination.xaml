@@ -7,12 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Style="{StaticResource LayoutGridStyle3}">
+        <TextBlock HorizontalAlignment="Left" Margin="52,687,0,0" TextWrapping="Wrap" Text="Have a wonderful journey" VerticalAlignment="Top" Height="71" Width="340" FontSize="20" FontFamily="Love Ya Like A Sister"/>
 
-        <GridView x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
+        <GridView x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF141F2E" IsItemClickEnabled="True" Foreground="#FFFBF7F7" ItemClick="Menu_ItemClick">
             <TextBlock x:Name="TxtBlckMenu" Text="Main Menu"  Margin="600.167,25.167,3.167,4.167" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" Height="26" FontSize="30" Width="360"/>
         </GridView>
-        <GridView x:Name="Help" Height="70" Margin="0,90,0,0" VerticalAlignment="Top" Background="#FF67C9C1" Foreground="#FFFBF7F7">
+        <GridView x:Name="Help" Height="70" Margin="0,90,0,0" VerticalAlignment="Top" Background="#FF849EB8" Foreground="#FFFBF7F7">
         </GridView>
         <TextBlock x:Name="TxtBlckHelp" Text="Help"  Margin="989,120,289,622" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" FontSize="30" Height="26" Tapped="TxtBlckHelp_Tapped"/>
 
@@ -23,148 +24,10 @@
         <TextBlock HorizontalAlignment="Left" Margin="326,356,0,0" TextWrapping="Wrap" Text="Current location will be tracked using GPS. Please turn GPS on." VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="30" FontStyle="Italic" />
 
         <TextBlock HorizontalAlignment="Left" Margin="484,432,0,0" TextWrapping="Wrap" Text="Destination:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="30" FontStyle="Italic" />
-        <Button Content="Search" Background="#FF0F897F" FontSize="30" HorizontalAlignment="Left" Margin="481,628,0,0" VerticalAlignment="Top" Width="142"/>
-        <Button Content="Cancel" Background="#FF0F897F" FontSize="30" HorizontalAlignment="Left" Margin="753,628,0,0" VerticalAlignment="Top" Width="142"/>
-        <ComboBox HorizontalAlignment="Left" Margin="484,481,0,0" VerticalAlignment="Top" Width="403" Height="40">
-            <x:String>Aggona Junction</x:String>
-            <x:String>Ahangama</x:String>
-            <x:String>Akkaraweli</x:String>
-            <x:String>Albert Crescent</x:String>
-            <x:String>Alubomulla</x:String>
-            <x:String>Amaikuli</x:String>
-            <x:String>Ambagaha Junction</x:String>
-            <x:String>Ambalangoda</x:String>
-            <x:String>Ambepussa</x:String>
-            <x:String>Ampara</x:String>
-            <x:String>Angoda</x:String>
-            <x:String>Angulana</x:String>
-            <x:String>Anguruwathota</x:String>
-            <x:String>Anuradhapura</x:String>
-            <x:String>Arangala</x:String>
-            <x:String>Athurugiriya</x:String>
-            <x:String>Attanagalla</x:String>
-            <x:String>Attidiya</x:String>
-            <x:String>Avissawella</x:String>
-            <x:String>Badulla</x:String>
-            <x:String>Balangoda</x:String>
-            <x:String>Bambalapitya</x:String>
-            <x:String>Bandaragama</x:String>
-            <x:String>Bandarawela</x:String>
-            <x:String>Baseline Road</x:String>
-            <x:String>Batakettara</x:String>
-            <x:String>Battaramulla</x:String>
-            <x:String>Belihuloya</x:String>
-            <x:String>Bentota</x:String>
-            <x:String>Beragala</x:String>
-            <x:String>Beruwala</x:String>
-            <x:String>Bibila</x:String>
-            <x:String>Biyagama</x:String>
-            <x:String>Boralesgamuwa</x:String>
-            <x:String>Bentara</x:String>
-            <x:String>Castle Street</x:String>
-            <x:String>Chilaw</x:String>
-            <x:String>Colombo Campus</x:String>
-            <x:String>Dambulla</x:String>
-            <x:String>Dehiwala</x:String>
-            <x:String>Delkanda</x:String>
-            <x:String>Dematagoda</x:String>
-            <x:String>Demodara</x:String>
-            <x:String>Divulapitya</x:String>
-            <x:String>Egodauyana</x:String>
-            <x:String>Eheliyagoda</x:String>
-            <x:String>Ekala</x:String>
-            <x:String>Embilipitya</x:String>
-            <x:String>Ethul Kotte</x:String>
-            <x:String>Fort</x:String>
-            <x:String>Galigamuwa</x:String>
-            <x:String>Galle</x:String>
-            <x:String>Galle face</x:String>
-            <x:String>Giriulla</x:String>
-            <x:String>Godagama</x:String>
-            <x:String>Godakawela</x:String>
-            <x:String>Gonapola</x:String>
-            <x:String>Haliela</x:String>
-            <x:String>Haputale</x:String>
-            <x:String>Hirana Rd</x:String>
-            <x:String>Hokandara</x:String>
-            <x:String>Homagama</x:String>
-            <x:String>Horana</x:String>
-            <x:String>Horawala</x:String>
-            <x:String>Horton Place</x:String>
-            <x:String>Idangoda</x:String>
-            <x:String>Ingiriya</x:String>
-            <x:String>Ja-Ela</x:String>
-            <x:String>Jaffna</x:String>
-            <x:String>Kadawatha</x:String>
-            <x:String>Kahapola</x:String>
-            <x:String>Kadawatha</x:String>
-            <x:String>Kahapola</x:String>
-            <x:String>Kandy</x:String>
-            <x:String>Katharagama</x:String>
-            <x:String>Katubedda</x:String>
-            <x:String>Katunayaka</x:String>
-            <x:String>Kegalle</x:String>
-            <x:String>Kelaniya</x:String>
-            <x:String>Kesbewa</x:String>
-            <x:String>Kilinochchi</x:String>
-            <x:String>Kirulapana</x:String>
-            <x:String>Kollupitya</x:String>
-            <x:String>Kosgama</x:String>
-            <x:String>Kottawa</x:String>
-            <x:String>Labugama</x:String>
-            <x:String>Lellopitya</x:String>
-            <x:String>Lunugala</x:String>
-            <x:String>Madhu Road</x:String>
-            <x:String>Mahaoya</x:String>
-            <x:String>Malabe</x:String>
-            <x:String>Mannar</x:String>
-            <x:String>Maradana</x:String>
-            <x:String>Matara</x:String>
-            <x:String>Mattakulya</x:String>
-            <x:String>Mawanella</x:String>
-            <x:String>Meegoda</x:String>
-            <x:String>Meepe</x:String>
-            <x:String>Miriswaththa</x:String>
-            <x:String>Modara</x:String>
-            <x:String>Moneragala</x:String>
-            <x:String>Moratuwa</x:String>
-            <x:String>Mt.Lavinia</x:String>
-            <x:String>Nagoda</x:String>
-            <x:String>Negambo</x:String>
-            <x:String>Nittabuwa</x:String>
-            <x:String>Nugegoda</x:String>
-            <x:String>Orugodawatta</x:String>
-            <x:String>Padukka</x:String>
-            <x:String>Panadura</x:String>
-            <x:String>Pannipitya</x:String>
-            <x:String>Passara</x:String>
-            <x:String>Pelmadulla</x:String>
-            <x:String>Peradenya</x:String>
-            <x:String>Pettah</x:String>
-            <x:String>Pilyandala</x:String>
-            <x:String>Pugoda</x:String>
-            <x:String>Rajagirya</x:String>
-            <x:String>Rathnapura</x:String>
-            <x:String>Seeduwa</x:String>
-            <x:String>Sri Jayawardanapura</x:String>
-            <x:String>Suriyawea</x:String>
-            <x:String>Thalagala</x:String>
-            <x:String>Town Hall</x:String>
-            <x:String>Udawalawe</x:String>
-            <x:String>Union Place</x:String>
-            <x:String>Urapola</x:String>
-            <x:String>Vavuniya</x:String>
-            <x:String>Veyangoda</x:String>
-            <x:String>Wadduwa</x:String>
-            <x:String>Walana</x:String>
-            <x:String>Warakapola</x:String>
-            <x:String>Waskaduwa</x:String>
-            <x:String>Wattala</x:String>
-            <x:String>Wekada</x:String>
-            <x:String>Werahera</x:String>
-            <x:String>Yakkara</x:String>
+        <Button Content="Search" Background="#FF141F2E" FontSize="30" HorizontalAlignment="Left" Margin="481,628,0,0" VerticalAlignment="Top" Width="142"/>
+        <Button Content="Cancel" Background="#FF141F2E" FontSize="30" HorizontalAlignment="Left" Margin="753,628,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click"/>
+        <ComboBox x:Name="comboStart" HorizontalAlignment="Left" Margin="484,481,0,0" VerticalAlignment="Top" Width="403" Height="40" Background="#FF849EB8" PlaceholderText="Select a location" FontSize="22" FontWeight="Bold">
         </ComboBox>
-        <Image HorizontalAlignment="Left" Height="78" Margin="10,680,0,0" VerticalAlignment="Top" Width="412" Source="ms-appx:///Assets/title.png"/>
 
     </Grid>
 </Page>

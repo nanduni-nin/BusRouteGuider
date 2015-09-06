@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Margin="20,50,20,20">
+    <Grid Style="{StaticResource LayoutGridStyle2}">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="50" />
@@ -24,7 +24,7 @@
         <Button x:ConnectionId='1' x:Name="setPositionButton" Content="Set Position"                                 HorizontalAlignment="Center" Grid.Row="1" Grid.RowSpan="2" />
 
         <!-- Slider for zooming in and out-->
-        <Slider x:ConnectionId='2' x:Name="mySlider" Maximum="20" Minimum="10"                                    	Grid.Row="3" />
+        <Slider x:ConnectionId='2' x:Name="mySlider" Maximum="20" Minimum="10"                                    	Grid.Row="3" Margin="32,0,32,0" />
     </Grid>
 </Page>
 

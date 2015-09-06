@@ -5,6 +5,7 @@
       <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Style" />
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
@@ -12,7 +13,6 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Style" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootMethod Name="GetColumnSpan" />
@@ -37,6 +37,7 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
@@ -128,7 +129,6 @@
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="BusRouteGuider.Help" />
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
@@ -142,6 +142,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="Maximum" />
       <RootProperty Name="Minimum" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="ValueChanged" />
     </RootType>
     <RootType FullName="BusRouteGuider.Map" />
@@ -154,6 +155,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootMethod Name="GetHorizontalScrollMode" />

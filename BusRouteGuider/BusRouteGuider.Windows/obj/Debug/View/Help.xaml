@@ -7,8 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid>
-        <GridView x:ConnectionId='1' x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True"                            Foreground="#FFFBF7F7" Grid.ColumnSpan="2">
+    <Grid Style="{StaticResource LayoutGridStyle3}">
+        <GridView x:ConnectionId='1' x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF141F2E" IsItemClickEnabled="True"                            Foreground="#FFFBF7F7" Grid.ColumnSpan="2">
             <TextBlock x:Name="TxtBlckMenu" Text="Main Menu"  Margin="600.167,25.167,3.167,4.167" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" Height="26" FontSize="30" Width="360"/>
         </GridView>
         
@@ -113,10 +113,10 @@
         <RadioButton x:ConnectionId='3' x:Name="rdBtnCurrentDest" Content="  Current Location to Destination" GroupName="Group1" HorizontalAlignment="Left" Margin="474,278,0,0" VerticalAlignment="Top"                                FontSize="36" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:ConnectionId='4' x:Name="rdBtnAllRoutes" Content="  All Routes" GroupName="Group1" HorizontalAlignment="Left" Margin="474,460,0,0" VerticalAlignment="Top"                              FontSize="36" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:ConnectionId='5' x:Name="rdBtnBusesAtLocation" Content="  Buses at a Particular Location" GroupName="Group1" HorizontalAlignment="Left" Margin="474,365,0,0" VerticalAlignment="Top"                                    FontSize="36" FontWeight="Bold" FontFamily="Cambria"/>
-        <TextBlock HorizontalAlignment="Left" Margin="100,72,0,0" TextWrapping="Wrap" Text="Need Help?" VerticalAlignment="Top" FontSize="72" FontFamily="Segoe Marker" Foreground="#FF0F897F"  />
+        <TextBlock HorizontalAlignment="Left" Margin="100,72,0,0" TextWrapping="Wrap" Text="Need Help?" VerticalAlignment="Top" FontSize="72" FontFamily="Segoe Marker" Foreground="#FF849EB8"  />
 
 
-        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="117" FontSize="30" Margin="647,0,126,0" FontFamily="SimSun" Foreground="#FF0F897F">
+        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="117" FontSize="30" Margin="647,0,126,0" FontFamily="SimSun" Foreground="#FF849EB8">
         <Run Text="  For More Help, Contact:"/> <LineBreak/> <Run/>
         <Run Text="     email: nanduni.12@cse.mrt.ac.lk"/> <LineBreak/> <Run/>
         <Run Text="     TP: 0714114256" /> <LineBreak/> <Run/>

@@ -7,21 +7,21 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <GridView x:ConnectionId='1' x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True" Foreground="#FFFBF7F7"                           >
+    <Grid Style="{StaticResource LayoutGridStyle3}">
+        <TextBlock HorizontalAlignment="Left" Margin="52,687,0,0" TextWrapping="Wrap" Text="Have a wonderful journey" VerticalAlignment="Top" Height="71" Width="340" FontSize="20" FontFamily="Love Ya Like A Sister"/>
+        <GridView x:ConnectionId='1' x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" Foreground="#FFFBF7F7"                                                                    >
             <TextBlock x:Name="TxtBlckMenu" Text="Main Menu"  Margin="600.167,25.167,3.167,4.167" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" Height="26" FontSize="30" Width="360"/>
         </GridView>
-        <GridView x:Name="Help" Height="70" Margin="0,90,0,0" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True" Foreground="#FFFBF7F7">
+        <GridView x:Name="Help" Height="70" Margin="0,90,0,0" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True" Foreground="#FFFBF7F7">
         </GridView>
         <TextBlock x:ConnectionId='2' x:Name="TxtBlckHelp" Text="Help"  Margin="1002,120,295,622" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" FontSize="30" Height="26"                            />
         <TextBlock x:ConnectionId='3' x:Name="TxtBlckMap" HorizontalAlignment="Left" Margin="270,105,0,0" TextWrapping="Wrap" Text="Map" Foreground="White" FontWeight="Bold" FontFamily="Cambria" FontSize="30" VerticalAlignment="Top"                           />
 
         <TextBlock HorizontalAlignment="Left" Margin="355,203,0,0" TextWrapping="Wrap" Text="Find Routes via a Location" VerticalAlignment="Top" Height="68" FontFamily="Cambria" FontSize="50" Width="615" FontWeight="Bold" />
-        <Button x:ConnectionId='4' x:Name="btnSearch" Content="Search" Background="#FF0F897F" FontSize="30" HorizontalAlignment="Left" Margin="481,628,0,0" VerticalAlignment="Top" Width="142"                        />
-        <Button x:ConnectionId='5' x:Name="btnCancel" Content="Cancel" Background="#FF0F897F" FontSize="30" HorizontalAlignment="Left" Margin="753,628,0,0" VerticalAlignment="Top" Width="142"                         />
-        <Image HorizontalAlignment="Left" Height="78" Margin="10,680,0,0" VerticalAlignment="Top" Width="412" Source="ms-appx:///Assets/title.png"/>
+        <Button x:ConnectionId='4' x:Name="btnSearch" Content="Search" Background="#141F2E" FontSize="30" HorizontalAlignment="Left" Margin="481,628,0,0" VerticalAlignment="Top" Width="142"                        />
+        <Button x:ConnectionId='5' x:Name="btnCancel" Content="Cancel" Background="#141F2E" FontSize="30" HorizontalAlignment="Left" Margin="753,628,0,0" VerticalAlignment="Top" Width="142"                         />
         <TextBlock HorizontalAlignment="Left" Margin="487,349,0,0" TextWrapping="Wrap" Text="Please select the location :" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="30" Width="419" FontStyle="Italic" />
-        <ComboBox x:Name="comboLocation" HorizontalAlignment="Left" Margin="484,413,0,0" VerticalAlignment="Top" Width="408" Height="50" FontSize="22" FontWeight="Bold" Background="#CC87F7F2" PlaceholderText="Select a location"/>
+        <ComboBox x:Name="comboLocation" HorizontalAlignment="Left" Margin="484,413,0,0" VerticalAlignment="Top" Width="408" Height="50" FontSize="22" FontWeight="Bold" Background="#FF849EB8" PlaceholderText="Select a location"/>
     </Grid>
 </Page>
 

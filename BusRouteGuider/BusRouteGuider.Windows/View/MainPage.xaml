@@ -7,16 +7,17 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <GridView x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True" ItemClick="Map_ItemClick" Foreground="#FFFBF7F7" Grid.ColumnSpan="2">
-            <TextBlock x:Name="TxtBlckMenu" Text="Map" Style="{ThemeResource BaseTextBlockStyle}" Margin="650.167,20.167,3.167,4.167" Foreground="White" FontWeight="Bold" FontFamily="Cambria" Height="45" FontSize="30" Width="360"/>
+    <Grid Style="{StaticResource LayoutGridStyle4}">
+
+        <GridView x:Name="Menu" Height="70" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True" ItemClick="Map_ItemClick" Foreground="#FFFBF7F7" Margin="380,0,0,0">
+            <TextBlock x:Name="TxtBlckMenu" Text="Map" Style="{ThemeResource BaseTextBlockStyle}" Margin="450.167,20.167,3.167,4.167" Foreground="White" FontWeight="Bold" FontFamily="Cambria" Height="45" FontSize="30" Width="360"/>
         </GridView>
-        <GridView x:Name="Help" Height="70" Margin="0,90,0,0" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True" ItemClick="Help_ItemClick" Foreground="#FFFBF7F7" Grid.ColumnSpan="2">
-            <TextBlock x:Name="TxtBlckHelp" Text="Help"  Margin="650.167,20.167,3.167,4.167" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" FontSize="30" Height="26" Width="360"/>
+        <GridView x:Name="Help" Height="70" Margin="380,90,0,0" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True" ItemClick="Help_ItemClick" Foreground="#FFFBF7F7">
+            <TextBlock x:Name="TxtBlckHelp" Text="Help"  Margin="450.167,20.167,3.167,4.167" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontWeight="Bold" FontFamily="Cambria" FontSize="30" Height="26" Width="360"/>
         </GridView>
 
 
-        <GridView x:Name="StartToDestination"  Height="200" Width="200" BorderBrush="White" BorderThickness="2" Background="#FF0E4944" IsItemClickEnabled="True" ItemClick="StartToDestination_ItemClick" Margin="717,228,449,340" >
+        <GridView x:Name="StartToDestination"  Height="200" Width="200" BorderBrush="White" BorderThickness="2" Background="#141F2E" IsItemClickEnabled="True" ItemClick="StartToDestination_ItemClick" Margin="717,228,449,340" >
             <TextBlock x:Name="TxtStartToDestination"  Foreground="White" Style="{ThemeResource BaseTextBlockStyle}" FontFamily="Cambria" FontSize="30" Height="192" Width="186" >
             	<Run Text="  "/>
             	<LineBreak/>
@@ -33,7 +34,7 @@
         </GridView>
 
 
-        <GridView x:Name="CurrentLocationToDestination" BorderBrush="White" BorderThickness="2" Margin="990,228,176,0" Height="200" Width="200" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True" ItemClick="CurrentLocationToDestination_ItemClick">
+        <GridView x:Name="CurrentLocationToDestination" BorderBrush="White" BorderThickness="2" Margin="990,228,176,0" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" ItemClick="CurrentLocationToDestination_ItemClick">
             <TextBlock x:Name="TxtCurrentLocationToDestination" Foreground="White"  Style="{ThemeResource BaseTextBlockStyle}" FontFamily="Cambria" FontSize="30" Height="196" Width="186" >
             	<Run/>
             	<LineBreak/>
@@ -51,7 +52,7 @@
             </TextBlock>
         </GridView>
 
-        <GridView x:Name="AllRoutes" Margin="717,494,449,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True" ItemClick="AllRoutes_ItemClick">
+        <GridView x:Name="AllRoutes" Margin="717,494,449,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" ItemClick="AllRoutes_ItemClick">
             <TextBlock x:Name="TxtRouteNumber" Foreground="White"  Style="{ThemeResource BaseTextBlockStyle}" FontFamily="Cambria" FontSize="30" Height="192" Width="186" >
             	<Run/>
             	<LineBreak/>
@@ -65,7 +66,7 @@
             </TextBlock>
         </GridView>
 
-        <GridView x:Name="BusesAtCurrentLocation" Margin="990,494,176,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#FF0E4944" IsItemClickEnabled="True" ItemClick="BusesAtCurrentLocation_ItemClick" Foreground="#FFF7F7F7">
+        <GridView x:Name="BusesAtCurrentLocation" Margin="990,494,176,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" ItemClick="BusesAtCurrentLocation_ItemClick" Foreground="#FFF7F7F7">
             <TextBlock x:Name="TxtBusesAtLocation" Foreground="White" Style="{ThemeResource BaseTextBlockStyle}"  FontFamily="Cambria" FontSize="30" Height="196" Width="186" >
             	<Run Text=" "/>
             	<LineBreak/>
@@ -80,9 +81,6 @@
             	<Run Text="    a Location"/>
             </TextBlock>
         </GridView>
-
-        <Image HorizontalAlignment="Left" Height="158" Margin="0,460,0,0" VerticalAlignment="Top" Width="694" Source="ms-appx:///Assets/title.png"/>
-        <TextBlock HorizontalAlignment="Left" Margin="100,623,0,0" TextWrapping="Wrap" Text="Have a wonderful journey" VerticalAlignment="Top" Height="71" Width="480" FontSize="28" FontFamily="Love Ya Like A Sister"/>
 
     </Grid>
 

@@ -8,12 +8,38 @@
         <Style x:Key="LayoutGridStyle" TargetType="Grid">
             <Setter Property="Background">
                 <Setter.Value>
+                    <ImageBrush ImageSource="/Assets/MainPage.png"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="LayoutGridStyle2" TargetType="Grid">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="/Assets/Empty.png"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="LayoutGridStyle3" TargetType="Grid">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="/Assets/Empty.png"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="LayoutGridStyle4" TargetType="Grid">
+            <Setter Property="Background">
+                <Setter.Value>
                     <ImageBrush ImageSource="/Assets/MainScreen.png"/>
                 </Setter.Value>
             </Setter>
         </Style>
-    </Application.Resources>
-    
+
+    </Application.Resources>  
+        
+
 </Application>
     
     

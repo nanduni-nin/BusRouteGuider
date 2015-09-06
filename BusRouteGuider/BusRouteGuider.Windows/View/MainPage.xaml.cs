@@ -69,6 +69,11 @@ namespace BusRouteGuider
             this.Frame.Navigate(typeof(Map));
         }
 
+        private void btnCLose_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
+
         
     }
 }

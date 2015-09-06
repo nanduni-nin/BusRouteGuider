@@ -196,5 +196,22 @@ namespace BusRouteGuider
             this.Frame.Navigate(typeof(Map));
         }
 
+        private void cancelBtn_Click(object sender, RoutedEventArgs e)
+        {
+            //return to main page
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void closeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
+
+        private void direct_Click(object sender, RoutedEventArgs e)
+        {
+            //return to main page
+            this.Frame.Navigate(typeof(RoutesViaLocation));
+        }
+
     }
 }

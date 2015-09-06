@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -67,16 +69,23 @@ namespace BusRouteGuider
             this.Frame.Navigate(typeof(ShowRoutes),routes);
         }
 
-        private void Help_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Help));
-        }
-
         private void Menu_ItemClick(object sender, ItemClickEventArgs e)
         {
             this.Frame.Navigate(typeof(Map));
         }
 
+        private void BtnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Help));
+        }
+
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+
+        }
+
+        
        
        
 

@@ -91,11 +91,13 @@ namespace BusRouteGuider
             this.popUpCurrentToDest.IsOpen = false;
         }
 
+        
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Help));
         }
 
+        
         private void Menu_ItemClick(object sender, ItemClickEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
@@ -109,6 +111,13 @@ namespace BusRouteGuider
             this.Frame.Navigate(typeof(Map));
 
         }
+
+        private void Btn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Help));
+
+        }
+
 
     }
 }

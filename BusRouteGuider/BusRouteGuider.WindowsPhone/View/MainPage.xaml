@@ -7,6 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="Black">
+    <Page.BottomAppBar>
+        <CommandBar Height="75" Background="#FF141F2E">
+            <AppBarButton x:Name="BtnHelp" Icon="Help" Label="Help" Click="BtnHelp_Click"/>
+            <AppBarButton x:Name="BtnCancel" Icon="Cancel" Label="Quit" Click="BtnCancel_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
 
     <Grid Style="{StaticResource LayoutGridStyle}">
         <Grid.ColumnDefinitions>
@@ -16,7 +22,7 @@
 
         <GridView x:Name="StartToDestination" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Background="#141F2E" IsItemClickEnabled="True" ItemClick="StartToDestination_ItemClick" Grid.ColumnSpan="2" Margin="33,141,34,429">
             <Border BorderThickness="0" BorderBrush="White" Height="70" Width="333" >
-                <TextBlock x:Name="TxtStartToDestination" Text="Start to Destination" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
+                <TextBlock x:Name="TxtStartToDestination" Text="Start to Destination" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" ToolTipService.ToolTip="Add two locations and find the route" />
             </Border>
         </GridView>
 

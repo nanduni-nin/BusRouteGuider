@@ -30,7 +30,7 @@ namespace BusRouteGuider
     {
         Dictionary<String, Location> dic;
         BusRouteGuider.ViewModel.Algorithm process;
-
+        int option = 0;
 
         public StartToDestination()
         {
@@ -223,7 +223,45 @@ namespace BusRouteGuider
             return suggestions;
         }
 
-       
+        private void closeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+
+        }
+
+        private void direct_Click(object sender, RoutedEventArgs e)
+        {
+            if (option == 0)
+            {
+                textStart.Focus(FocusState.Keyboard);
+                //option = 1;
+            }
+            else if (option == 1)
+            {
+                textEnd.Focus(FocusState.Keyboard);
+               // option = 2;
+            }
+            else
+            {
+                option = 0;
+            }
+            
+        }
+
+        private void textStartOnFocus(object sender, RoutedEventArgs e)
+        {
+            option = 1;
+        }
+
+        private void textEndOnFocus(object sender, RoutedEventArgs e)
+        {
+            option = 2;
+        }
+
+        private void Help_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Help));
+        }
 
         
     }

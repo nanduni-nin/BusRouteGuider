@@ -15,16 +15,16 @@
         </GridView>
 
         <!-- Map Button -->
-        <GridView x:ConnectionId='2' Margin="225,0,4,0" Height="66" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True"                           Foreground="#FFFBF7F7">
+        <GridView x:ConnectionId='2' Margin="225,0,0,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True"                           Foreground="#FFFBF7F7">
             <TextBlock x:Name="TxtBlckMenu1" Margin="90,20,0,0" Text="Map" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontSize="23" Width="81"/>
         </GridView>
 
         <!-- Pop up for start to destination help option -->
         <Popup x:Name="popUpStartToDest">
-            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
+            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="#141F2E" VerticalAlignment="Top">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
                     <Grid Margin="27.167,26.167,26.833,0" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Follow the instructions to get the service." Margin="-17,-18,-18,0" FontSize="18" FontFamily="Cambria">
+                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Text="Follow the instructions to get the service." Margin="-17,-18,-18,0" FontSize="18" FontFamily="Cambria">
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="Select the Start location from the list."/> <LineBreak/> <Run/>
@@ -40,7 +40,7 @@
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="Cancel if no more searches required."/> <LineBreak/> <Run/>
                         </TextBlock>
-                        <Button x:ConnectionId='10' x:Name="BtnOK1" Content="OK" HorizontalAlignment="Center" VerticalAlignment="Bottom"                     Height="13" Width="134" FontSize="16" />
+                        <AppBarButton x:ConnectionId='10' Icon="Accept" HorizontalAlignment="Center" VerticalAlignment="Bottom"                  />
                     </Grid>
                 </Border>
             </Grid>
@@ -48,10 +48,10 @@
 
         <!-- Pop up for All Routes option -->
         <Popup x:Name="popUpAllRoutes">
-            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
+            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="#141F2E" VerticalAlignment="Top">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
                     <Grid Margin="27.167,26.167,26.833,0" >
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="Follow the instructions to get the service."  FontSize="18" FontFamily="Cambria">
+                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Text="Follow the instructions to get the service."  FontSize="18" FontFamily="Cambria">
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="Select the All Routes option."/> <LineBreak/> <Run/>
@@ -64,7 +64,7 @@
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="Cancel to go to the Main Menu."/> <LineBreak/> <Run/>
                         </TextBlock>
-                        <Button x:ConnectionId='9' x:Name="BtnOK2" Content="OK" HorizontalAlignment="Center" VerticalAlignment="Bottom"                     Height="13" Width="134" FontSize="16" />
+                        <AppBarButton x:ConnectionId='9' Icon="Accept" HorizontalAlignment="Center" VerticalAlignment="Bottom"                  />
                     </Grid>
                 </Border>
             </Grid>
@@ -72,7 +72,7 @@
 
         <!-- Pop up for current location to destination help option -->
         <Popup x:Name="popUpCurrentToDest">
-            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
+            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="#141F2E" VerticalAlignment="Top">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
                     <Grid Margin="27.167,26.167,26.833,0">
                         <TextBlock TextWrapping="Wrap" Text="Follow the instructions to get the service." Margin="-17,-18,-18,0" FontSize="18" FontFamily="Cambria">
@@ -91,7 +91,7 @@
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="Cancel if no more searches required."/> <LineBreak/> <Run/>
                         </TextBlock>
-                        <Button x:ConnectionId='8' x:Name="BtnOK3" Content="OK" HorizontalAlignment="Center" VerticalAlignment="Bottom"                     Height="13" Width="134" FontSize="16" />
+                        <AppBarButton x:ConnectionId='8' Icon="Accept" HorizontalAlignment="Center" VerticalAlignment="Bottom"                  />
                     </Grid>
                 </Border>
             </Grid>
@@ -99,10 +99,10 @@
 
         <!-- Pop up for Buses at a Location help option -->
         <Popup x:Name="popUpBusesAtLocation">
-            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
+            <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="#141F2E" VerticalAlignment="Top">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
                     <Grid Margin="27.167,26.167,26.833,0">
-                        <TextBlock TextWrapping="Wrap" Text="Follow the instructions to get the service." VerticalAlignment="Center" FontSize="18" FontFamily="Cambria">
+                        <TextBlock TextWrapping="Wrap" Text="Follow the instructions to get the service." VerticalAlignment="Top" FontSize="18" FontFamily="Cambria">
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="Select the location from the list."/> <LineBreak/> <Run/>
@@ -113,7 +113,7 @@
                             <Run Text="  "/> <LineBreak/> <Run/>
                             <Run Text="Cancel if no more searches required."/> <LineBreak/> <Run/>
                         </TextBlock>
-                        <Button x:ConnectionId='7' x:Name="BtnOK4" Content="OK" HorizontalAlignment="Center" VerticalAlignment="Bottom"                     Height="13" Width="134" FontSize="16" />
+                        <AppBarButton x:ConnectionId='7' Icon="Accept" HorizontalAlignment="Center" VerticalAlignment="Bottom"                  />
                     </Grid>
                 </Border>
             </Grid>
@@ -124,7 +124,7 @@
         <RadioButton x:ConnectionId='4' x:Name="rdBtnCurrentDest" Content="Current Location to Destination" GroupName="Group1" HorizontalAlignment="Left" Margin="72,242,0,0" VerticalAlignment="Top"                                FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:ConnectionId='5' x:Name="rdBtnAllRoutes" Content="All Routes" GroupName="Group1" HorizontalAlignment="Left" Margin="72,344,0,0" VerticalAlignment="Top"                              FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:ConnectionId='6' x:Name="rdBtnBusesAtLocation" Content="Buses at a Particular Location" GroupName="Group1" HorizontalAlignment="Left" Margin="72,293,0,0" VerticalAlignment="Top"                                    FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
-        <TextBlock HorizontalAlignment="Left" Margin="34,106,0,0" TextWrapping="Wrap" Text="Need Help?" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe Marker" Foreground="#141F2E"  />
+        <TextBlock HorizontalAlignment="Center" Margin="38,104,20,0" TextWrapping="Wrap" Text="Need Help?" VerticalAlignment="Top" Height="68" FontFamily="Cambria" FontSize="30" Width="342" FontWeight="Bold" />
 
         <!--Details-->
         <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="75" Width="351" FontSize="18" Margin="24,0,25,0" FontFamily="SimSun">

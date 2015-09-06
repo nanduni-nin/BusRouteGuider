@@ -17,7 +17,7 @@
         </GridView>
 
 
-        <GridView x:ConnectionId='3' x:Name="StartToDestination"  Height="200" Width="200" BorderBrush="White" BorderThickness="2" Background="#141F2E" IsItemClickEnabled="True"                                          Margin="717,228,449,340" >
+        <GridView x:ConnectionId='3' x:Name="StartToDestination"  Height="200" Width="200" BorderBrush="White" BorderThickness="2" Background="#141F2E" IsItemClickEnabled="True"                                          Margin="613,228,553,340" >
             <TextBlock x:Name="TxtStartToDestination"  Foreground="White" Style="{ThemeResource BaseTextBlockStyle}" FontFamily="Cambria" FontSize="30" Height="192" Width="186" >
             	<Run Text="  "/>
             	<LineBreak/>
@@ -34,7 +34,7 @@
         </GridView>
 
 
-        <GridView x:ConnectionId='4' x:Name="CurrentLocationToDestination" BorderBrush="White" BorderThickness="2" Margin="990,228,176,0" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True"                                                   >
+        <GridView x:ConnectionId='4' x:Name="CurrentLocationToDestination" BorderBrush="White" BorderThickness="2" Margin="886,228,280,0" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True"                                                   >
             <TextBlock x:Name="TxtCurrentLocationToDestination" Foreground="White"  Style="{ThemeResource BaseTextBlockStyle}" FontFamily="Cambria" FontSize="30" Height="196" Width="186" >
             	<Run/>
             	<LineBreak/>
@@ -52,7 +52,7 @@
             </TextBlock>
         </GridView>
 
-        <GridView x:ConnectionId='5' x:Name="AllRoutes" Margin="717,494,449,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True"                                >
+        <GridView x:ConnectionId='5' x:Name="AllRoutes" Margin="613,494,553,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True"                                >
             <TextBlock x:Name="TxtRouteNumber" Foreground="White"  Style="{ThemeResource BaseTextBlockStyle}" FontFamily="Cambria" FontSize="30" Height="192" Width="186" >
             	<Run/>
             	<LineBreak/>
@@ -66,7 +66,7 @@
             </TextBlock>
         </GridView>
 
-        <GridView x:ConnectionId='6' x:Name="BusesAtCurrentLocation" Margin="990,494,176,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True"                                              Foreground="#FFF7F7F7">
+        <GridView x:ConnectionId='6' x:Name="BusesAtCurrentLocation" Margin="886,494,280,0" BorderBrush="White" BorderThickness="2" Height="200" Width="200" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True"                                              Foreground="#FFF7F7F7">
             <TextBlock x:Name="TxtBusesAtLocation" Foreground="White" Style="{ThemeResource BaseTextBlockStyle}"  FontFamily="Cambria" FontSize="30" Height="196" Width="186" >
             	<Run Text=" "/>
             	<LineBreak/>
@@ -81,6 +81,7 @@
             	<Run Text="    a Location"/>
             </TextBlock>
         </GridView>
+        <Button x:ConnectionId='7' x:Name="btnCancel" Content="Quit" Background="#141F2E" FontSize="20" HorizontalAlignment="Left" Margin="1217,703,0,0" VerticalAlignment="Top" Width="142"                        />
 
     </Grid>
 

@@ -83,6 +83,13 @@ namespace BusRouteGuider
         {
             this.Frame.Navigate(typeof(Help));
         }
+
+        private void Map_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            //return to map
+            this.Frame.Navigate(typeof(Map));
+        }
+
     }
 
 }

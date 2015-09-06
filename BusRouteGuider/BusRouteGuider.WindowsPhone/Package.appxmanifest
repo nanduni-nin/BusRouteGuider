@@ -5,7 +5,7 @@
   <Properties>
     <DisplayName>BusRouteGuider.WindowsPhone</DisplayName>
     <PublisherDisplayName>Nands</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\120.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.3.1</OSMinVersion>
@@ -16,8 +16,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="BusRouteGuider.WindowsPhone.App">
-      <m3:VisualElements DisplayName="Bus Route Guider" Square150x150Logo="Assets\bigIcon.jpg" Square44x44Logo="Assets\log.jpg" Description="BusRouteGuider.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
-        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\menuLogo.jpg">
+      <m3:VisualElements DisplayName="Ceylon Bus Routes" Square150x150Logo="Assets\360.png" Square44x44Logo="Assets\106.png" Description="BusRouteGuider.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\744.png" Square71x71Logo="Assets\170.png">
           <m3:ShowNameOnTiles>
             <m3:ShowOn Tile="square150x150Logo" />
           </m3:ShowNameOnTiles>
@@ -25,7 +25,7 @@
         <m3:InitialRotationPreference>
           <m3:Rotation Preference="portrait" />
         </m3:InitialRotationPreference>
-        <m3:SplashScreen Image="Assets\SplashScreen.jpg" />
+        <m3:SplashScreen Image="Assets\splash 1152.png" />
       </m3:VisualElements>
     </Application>
   </Applications>

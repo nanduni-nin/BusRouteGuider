@@ -9,13 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <!-- Menu Button -->
         <GridView x:ConnectionId='1' Margin="1,6,175,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" Foreground="#FFFBF7F7"                           >
             <TextBlock x:Name="TxtBlckMenu" Margin="90,20,0,0" Text="Menu" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontSize="23" Width="66"/>
         </GridView>
+
+        <!-- Map Button -->
         <GridView x:ConnectionId='2' Margin="225,6,4,0" Height="66" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True"                           Foreground="#FFFBF7F7">
             <TextBlock x:Name="TxtBlckMenu1" Margin="90,20,0,0" Text="Map" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontSize="23" Width="81"/>
         </GridView>
 
+        <!-- Pop up for start to destination help option -->
         <Popup x:Name="popUpStartToDest">
             <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
@@ -42,6 +46,7 @@
             </Grid>
         </Popup>
 
+        <!-- Pop up for All Routes option -->
         <Popup x:Name="popUpAllRoutes">
             <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
@@ -65,6 +70,7 @@
             </Grid>
         </Popup>
 
+        <!-- Pop up for current location to destination help option -->
         <Popup x:Name="popUpCurrentToDest">
             <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
@@ -89,9 +95,9 @@
                     </Grid>
                 </Border>
             </Grid>
-
         </Popup>
 
+        <!-- Pop up for Buses at a Location help option -->
         <Popup x:Name="popUpBusesAtLocation">
             <Grid Margin="30,160,0,0" Height="423" Width="397" HorizontalAlignment="Stretch" Background="Black" VerticalAlignment="Center">
                 <Border BorderThickness="1" BorderBrush="#FF837D7D" HorizontalAlignment="Stretch">
@@ -113,13 +119,14 @@
             </Grid>
         </Popup>
 
+        <!-- Selecting the option for help-->
         <RadioButton x:ConnectionId='3' x:Name="rdBtnStartDest" Content="Start to Destination" GroupName="Group1" HorizontalAlignment="Left" Margin="72,195,0,0" VerticalAlignment="Top"                              FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:ConnectionId='4' x:Name="rdBtnCurrentDest" Content="Current Location to Destination" GroupName="Group1" HorizontalAlignment="Left" Margin="72,242,0,0" VerticalAlignment="Top"                                FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:ConnectionId='5' x:Name="rdBtnAllRoutes" Content="All Routes" GroupName="Group1" HorizontalAlignment="Left" Margin="72,344,0,0" VerticalAlignment="Top"                              FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <RadioButton x:ConnectionId='6' x:Name="rdBtnBusesAtLocation" Content="Buses at a Particular Location" GroupName="Group1" HorizontalAlignment="Left" Margin="72,293,0,0" VerticalAlignment="Top"                                    FontSize="20" FontWeight="Bold" FontFamily="Cambria"/>
         <TextBlock HorizontalAlignment="Left" Margin="34,106,0,0" TextWrapping="Wrap" Text="Need Help?" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe Marker" Foreground="#FF67C9C1"  />
 
-
+        <!--Details-->
         <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="75" Width="351" FontSize="18" Margin="24,0,25,0" FontFamily="SimSun">
         <Run Text="  For More Help, Contact:"/> <LineBreak/> <Run/>
         <Run Text="     email: nanduni.12@cse.mrt.ac.lk"/> <LineBreak/> <Run/>

@@ -76,6 +76,8 @@ namespace BusRouteGuider
         {
             this.Frame.Navigate(typeof(Map));
         }
+
+       
        
 
         

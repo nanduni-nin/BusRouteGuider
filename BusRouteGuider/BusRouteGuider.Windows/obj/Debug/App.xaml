@@ -4,5 +4,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:BusRouteGuider">
 
+    <Application.Resources>
+        <Style x:Key="LayoutGridStyle" TargetType="Grid">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="/Assets/MainScreen.png"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+    
 </Application>
+    
+    
 

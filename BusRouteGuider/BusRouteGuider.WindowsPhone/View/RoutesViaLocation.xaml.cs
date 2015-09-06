@@ -189,5 +189,12 @@ namespace BusRouteGuider
 
             return suggestions;
         }
+
+        private void Map_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            //return to main page
+            this.Frame.Navigate(typeof(Map));
+        }
+
     }
 }

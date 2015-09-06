@@ -8,48 +8,37 @@
     mc:Ignorable="d"
     Background="Black">
 
-    <Grid>
+    <Grid Style="{StaticResource LayoutGridStyle}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="57*"/>
             <ColumnDefinition Width="43*"/>
         </Grid.ColumnDefinitions>
 
-        <GridView x:ConnectionId='1' x:Name="StartToDestination" Margin="35,253,43.333,0" Height="150" Width="150" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True"                                         >
-            <Border BorderThickness="2" BorderBrush="White" Height="150" Width="150">
-                <TextBlock x:Name="TxtStartToDestination" Text="Start to Destination" Foreground="White" Margin="14.333,38.333,8.333,8.333" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
+        <GridView x:ConnectionId='1' x:Name="StartToDestination" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Background="#141F2E" IsItemClickEnabled="True"                                          Grid.ColumnSpan="2" Margin="33,141,34,429">
+            <Border BorderThickness="0" BorderBrush="White" Height="70" Width="333" >
+                <TextBlock x:Name="TxtStartToDestination" Text="Start to Destination" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
             </Border>
         </GridView>
 
 
-        <GridView x:ConnectionId='2' x:Name="CurrentLocationToDestination" Margin="217,253,33,0" Height="150" Width="150" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True"                                                    Grid.ColumnSpan="2">
-            <Border BorderThickness="2" BorderBrush="White" Height="150" Width="150">
-                <TextBlock x:Name="TxtCurrentLocationToDestination" Text="Current Location to Destination" Foreground="White" Margin="12.333,38.333,8.333,8.333" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
+        <GridView x:ConnectionId='2' x:Name="CurrentLocationToDestination" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Margin="33,234,34,336" Background="#141F2E" IsItemClickEnabled="True"                                                    Grid.ColumnSpan="2" Width="333">
+            <Border BorderThickness="0" BorderBrush="White" Height="70" Width="333">
+                <TextBlock x:Name="TxtCurrentLocationToDestination" Text="Current Location to Destination" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
             </Border>
         </GridView>
 
-        <GridView x:ConnectionId='3' x:Name="AllRoutes" Margin="35,438,43.333,0" Height="150" Width="150" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True"                                >
-            <Border BorderThickness="2" BorderBrush="White" Height="150" Width="150">
-                <TextBlock x:Name="TxtRouteNumber" Text="All Routes" Foreground="White" Margin="22.333,46.333,15.333,56.333" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
+        <GridView x:ConnectionId='3' x:Name="AllRoutes" Margin="33,418,34,152" Height="70"  VerticalAlignment="Center" HorizontalAlignment="Center" Background="#141F2E" IsItemClickEnabled="True"                                 Grid.ColumnSpan="2" Width="333">
+            <Border BorderThickness="0" BorderBrush="White" Height="70" Width="333">
+                <TextBlock x:Name="TxtRouteNumber" Text="All Routes" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
             </Border>
         </GridView>
 
-        <GridView x:ConnectionId='4' x:Name="BusesAtCurrentLocation" Margin="218,438,32,0" Height="150" Width="150" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True"                                              Foreground="#FFF7F7F7" Grid.ColumnSpan="2">
-            <Border BorderThickness="2" BorderBrush="White" Height="150" Width="150">
-                <TextBlock x:Name="TxtBusesAtLocation" Text="Buses at a Location" Foreground="White" Margin="22.333,38.333,15.333,41.333" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
+        <GridView x:ConnectionId='4' x:Name="BusesAtCurrentLocation" Margin="33,327,34,243" Height="70" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#141F2E" IsItemClickEnabled="True"                                              Foreground="#FFF7F7F7" Grid.ColumnSpan="2">
+            <Border BorderThickness="0" BorderBrush="White" Height="70" Width="333">
+                <TextBlock x:Name="TxtBusesAtLocation" Text="Buses at a Location" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}"  FontSize="23" FontFamily="{StaticResource PhoneFontFamilySemiBold}" />
             </Border>
         </GridView>
 
-        <GridView x:ConnectionId='5' x:Name="Menu" Margin="0,0,9.333,0" Height="70" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True"                            Foreground="#FFFBF7F7">
-            <TextBlock x:Name="TxtBlckMenu" Margin="90,20,0,0" Text="Map"  Style="{ThemeResource BaseTextBlockStyle}" Foreground="White"  FontSize="25" Width="65" FontFamily="{StaticResource PhoneFontFamilySemiBold}" FontWeight="Normal"/>
-        </GridView>
-
-        <GridView x:ConnectionId='6' x:Name="Help" Margin="217,0,0,0" Height="70" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True"                            Grid.ColumnSpan="2">
-            <TextBlock x:Name="TxtBlckHelp" Margin="90,20,0,0" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White"  FontSize="25" FontFamily="{StaticResource PhoneFontFamilySemiBold}" FontWeight="Normal"/>
-        </GridView>
-
-        <Image HorizontalAlignment="Center" Height="96" Margin="17,130,8,0" VerticalAlignment="Top" Width="375" Source="ms-appx:///Assets/title.png" Grid.ColumnSpan="2"/>
-
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="...Have a Wonderful Journey..." VerticalAlignment="Bottom" Height="31" Width="390" FontSize="26" FontFamily="SimSun" Grid.ColumnSpan="2" Margin="20,0,-10,16"/>
 
     </Grid>
 </Page>

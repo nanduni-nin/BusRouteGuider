@@ -122,5 +122,3 @@ C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGui
 C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Nands\Desktop\SEP\BAckups\BusRouteGuider-v10\BusRouteGuider\BusRouteGuider.WindowsPhone\obj\Debug\ProjectArchitectures.txt
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.exe.CodeAnalysisLog.xml
-C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\BusRouteGuider\BusRouteGuider.WindowsPhone\bin\Debug\BusRouteGuider.WindowsPhone.exe.lastcodeanalysissucceeded

@@ -8,28 +8,28 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-
-
-    <Grid>
-        <GridView x:ConnectionId='1' x:Name="Menu" Margin="1,6,272,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" Foreground="#FFFBF7F7"                            ToolTipService.ToolTip="Back to Main Page" >
+    <Grid  Style="{StaticResource LayoutGridStyle2}">
+        <!--Menu button -->
+        <GridView x:ConnectionId='1' x:Name="Menu" Margin="1,6,272,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" Foreground="#FFFBF7F7"                            ToolTipService.ToolTip="Back to Main Page" >
             <TextBlock x:Name="TxtBlckMenu" Text="Menu" Margin="30,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="66"/>
         </GridView>
-        <GridView x:Name="Help" Margin="272,6,1,0" Height="66" VerticalAlignment="Top" Background="#FF0F897F" IsItemClickEnabled="True" ToolTipService.ToolTip="Need Help?">
-            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="69.333,3,4.333,1.5" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
-        </GridView>
-        <GridView x:ConnectionId='2' x:Name="Map" Margin="137,6,136,0" Height="66" VerticalAlignment="Top" Background="#FF67C9C1" IsItemClickEnabled="True"                           Foreground="#FFFBF7F7" ToolTipService.ToolTip="View the Map" FontFamily="Segoe UI Semibold">
-            <TextBlock x:Name="TxtBlckMap" Text="Map" Margin="38,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81" />
-        </GridView>
-        <TextBlock HorizontalAlignment="Left" Margin="60,290,0,0" TextWrapping="Wrap" Text="Start Location:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
-        <TextBlock HorizontalAlignment="Left" Margin="60,413,0,0" TextWrapping="Wrap" Text="Destination:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
-        <Button x:ConnectionId='3' x:Name="searchAllBtn" Content="All Routes" Background="#FF0F897F" HorizontalAlignment="Left" Margin="60,518,0,0" VerticalAlignment="Top" Width="142"                            />
-        <Button x:ConnectionId='4' x:Name="searchBestBtn" Content="Best Routes" Background="#FF0F897F" HorizontalAlignment="Left" Margin="240,518,0,0" VerticalAlignment="Top" Width="142"                             />
 
-        <Button x:ConnectionId='5' x:Name="cancelBtn" Content="Cancel" HorizontalAlignment="Center" Margin="129,0,136,0" VerticalAlignment="Bottom" Width="135"                         Height="54"/>
+        <!--Help button -->
+        <GridView x:Name="Help" Margin="272,6,1,0" Height="66" VerticalAlignment="Top" Background="#141F2E" IsItemClickEnabled="True" ToolTipService.ToolTip="Need Help?">
+            <TextBlock x:Name="TxtBlckHelp" Text="Help" Style="{ThemeResource BaseTextBlockStyle}" Margin="85,0,0,0" Width="50" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23"/>
+        </GridView>
 
+        <!--Map button -->
+        <GridView x:ConnectionId='2' x:Name="Map" Margin="137,6,136,0" Height="66" VerticalAlignment="Top" Background="#FF849EB8" IsItemClickEnabled="True"                           Foreground="#FFFBF7F7" ToolTipService.ToolTip="View the Map" FontFamily="Segoe UI Semibold">
+            <TextBlock x:Name="TxtBlckMap" Text="Map" Margin="65,3,2,10" Style="{ThemeResource BaseTextBlockStyle}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="23" Width="81" />
+        </GridView>
+
+        <!--Details-->
         <TextBlock HorizontalAlignment="Left" Margin="42,149,0,0" TextWrapping="Wrap" Text="Find Routes from Start to Destination" VerticalAlignment="Top" Height="68" FontFamily="Cambria" FontSize="30" Width="342" FontWeight="Bold" />
 
-        <AutoSuggestBox x:ConnectionId='6' x:Name="textStart"                                          Margin="60,326,0,0" Width="322" HorizontalAlignment="Left" PlaceholderText="Enter a location" VerticalAlignment="Top" Foreground="#FFF78989">
+        <!-- Start Location text box-->
+        <TextBlock HorizontalAlignment="Left" Margin="60,290,0,0" TextWrapping="Wrap" Text="Start Location:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
+        <AutoSuggestBox x:ConnectionId='3' x:Name="textStart"                                          Margin="0,326,0,0" Width="322" HorizontalAlignment="Center" PlaceholderText="Enter a location" VerticalAlignment="Top" Foreground="#FFF78989">
             <AutoSuggestBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -39,7 +39,9 @@
             </AutoSuggestBox.ItemTemplate>
         </AutoSuggestBox>
 
-        <AutoSuggestBox x:ConnectionId='7'  x:Name="textEnd"                                          HorizontalAlignment="Left" Margin="60,456,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989">
+        <!-- Destination text box-->
+        <TextBlock HorizontalAlignment="Left" Margin="60,413,0,0" TextWrapping="Wrap" Text="Destination:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
+        <AutoSuggestBox x:ConnectionId='4'  x:Name="textEnd"                                          HorizontalAlignment="Center" Margin="0,456,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989">
             <AutoSuggestBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -48,6 +50,15 @@
                 </DataTemplate>
             </AutoSuggestBox.ItemTemplate>
         </AutoSuggestBox>
+        
+        <!--Search All Routes button-->
+        <Button x:ConnectionId='5' x:Name="searchAllBtn" Content="All Routes" Background="#141F2E" HorizontalAlignment="Left" Margin="60,518,0,0" VerticalAlignment="Top" Width="142"                            />
+
+        <!--Search Best Routes button-->
+        <Button x:ConnectionId='6' x:Name="searchBestBtn" Content="Best Routes" Background="#141F2E" HorizontalAlignment="Right" Margin="0,518,60,0" VerticalAlignment="Top" Width="142"                             />
+
+        <!--Cancel Button-->
+        <Button x:ConnectionId='7' x:Name="cancelBtn" Content="Cancel" HorizontalAlignment="Center" Background="#FF849EB8" VerticalAlignment="Bottom" Width="135"                         Height="54"/>
 
     </Grid>
 </Page>

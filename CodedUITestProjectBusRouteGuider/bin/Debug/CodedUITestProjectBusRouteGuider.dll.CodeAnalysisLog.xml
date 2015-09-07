@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+ <Exceptions>
+  <Exception Keyword="CA0001" Kind="Engine">
+   <Type>Microsoft.FxCop.Sdk.InvalidMetadataException</Type>
+   <ExceptionMessage>The following error was encountered while reading module 'Microsoft.VisualStudio.TestTools.UITest.ExtensionUtilities': Security attribute type does not have a default constructor: System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.</ExceptionMessage>
+   <StackTrace>   at Microsoft.FxCop.Sdk.Reader.HandleError(ModuleNode mod, String errorMessage)
+   at Microsoft.FxCop.Sdk.Reader.GetPermissionAttribute2(MemoryCursor sigReader, SecurityAction action)
+   at Microsoft.FxCop.Sdk.Reader.GetPermissionAttributes2(Int32 blobIndex, SecurityAction action, Node node)
+   at Microsoft.FxCop.Sdk.Reader.GetPermissionAttributes(Int32 blobIndex, SecurityAction action, Node node)
+   at Microsoft.FxCop.Sdk.Reader.GetSecurityAttribute(Int32 i, Node node)
+   at Microsoft.FxCop.Sdk.Reader.GetSecurityAttributesFor(Int32 parentIndex, Node node)
+   at Microsoft.FxCop.Sdk.Reader.GetCustomAttributesFor(ModuleNode module)
+   at Microsoft.FxCop.Sdk.ModuleNode.get_Attributes()
+   at Microsoft.FxCop.Sdk.NodeExtensions.GetCustomAttribute(ModuleNode module, String attributeFullName)
+   at Microsoft.FxCop.Sdk.NodeExtensions.HasCustomAttribute(ModuleNode module, String attributeFullName)
+   at Microsoft.FxCop.Sdk.TypeNode.ImplicitlyParticipatesInTypeEquivalence(TypeNode typeNode)
+   at Microsoft.FxCop.Sdk.Struct.get_ParticipatesInTypeEquivalence()
+   at Microsoft.FxCop.Sdk.TypeNode.get_TypeEquivalenceData()
+   at Microsoft.FxCop.Sdk.TypeNode.IsTypeEquivalentTo(TypeNode other)
+   at Microsoft.FxCop.Sdk.TypeNode.IsStructurallyEquivalentTo(TypeNode type)
+   at Microsoft.FxCop.Sdk.Method.ParameterTypesMatchStructurally(TypeNodeCollection argumentTypes)
+   at Microsoft.FxCop.Sdk.Reader.GetMemberFromRef(Int32 i, TypeNodeCollection&amp; varArgTypes, Int32 numGenericArgs)
+   at Microsoft.FxCop.Sdk.Reader.GetMemberFromToken(Int32 tok, TypeNodeCollection&amp; varArgTypes)
+   at Microsoft.FxCop.Sdk.InstructionParser.ParseInstruction()
+   at Microsoft.FxCop.Sdk.InstructionParser.ParseInstructions()
+   at Microsoft.FxCop.Sdk.Reader.ParseMethodInstructions(Method method, Int32 methodIndex, Int32 RVA)
+   at Microsoft.FxCop.Sdk.Reader.GetMethodInstructions(Method method, Object i)
+   at Microsoft.FxCop.Sdk.Reader.GetMethodBody(Method method, Object i, Boolean asInstructionList)
+   at Microsoft.FxCop.Sdk.Method.get_Instructions()
+   at Microsoft.FxCop.Sdk.RuleUtilities.HasImperativeSecurityAction(Method method, SecurityAction action)
+   at Microsoft.FxCop.Sdk.RuleUtilities.HasSecurityAction(Method method, SecurityAction action)
+   at Microsoft.FxCop.Sdk.RuleUtilities.HasSecurityAction(Method method, SecurityAction[] actions)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.RecordCallSites(Method caller)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitMember(Member member, TargetMember target)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitMembers(MemberCollection members, TargetMemberDictionary targets, Boolean visitNestedTypes)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitType(TypeNode type, TargetType target)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitType(TypeNode type, TargetType target)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitTypes(TypeNodeCollection types, TargetNamespaceDictionary targets)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitModule(ModuleNode module, TargetModule target)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitAssembly(AssemblyNode assembly, TargetFile target)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitAssembly(AssemblyNode assembly, TargetFile target)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.Load(TargetFile target, Boolean buildTree, Boolean queueItems, AssemblyNode loadedAssembly)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.LoadAssemblies(Queue queue, ExceptionCollection exceptions)</StackTrace>
+  </Exception>
+ </Exceptions>
+</FxCopReport>

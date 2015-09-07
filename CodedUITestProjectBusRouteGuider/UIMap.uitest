@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="26d51cda-225a-4880-b632-983830e12361" AssemblyVersion="12.0.30501.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="TechnologyManagers" />
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <AssertAction UIObjectName="UIMap.UIItemWindow.UIScrollerPane.UITake158GetdownatyourText">
+      <ParameterName />
+      <PropertyName>ControlType</PropertyName>
+      <ExpectedValue>Take 158. Get down at your destination, Piliyandala</ExpectedValue>
+      <MessageOnValidationFailure>Wrong Value</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UICeylonBusRoutesWindow" FriendlyName="Ceylon Bus Routes" SpecialControlType="None" SessionId="0">
+          <TechnologyName>UIA</TechnologyName>
+          <WindowTitles />
+          <AndCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name">Ceylon Bus Routes</PropertyCondition>
+            <PropertyCondition Name="FrameworkId">XAML</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Group" Id="UITextStartGroup" FriendlyName="textStart" SpecialControlType="None">
+              <TechnologyName>UIA</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="FrameworkId">XAML</PropertyCondition>
+                <PropertyCondition Name="ControlType">Group</PropertyCondition>
+                <PropertyCondition Name="AutomationId">textStart</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBoxEdit" FriendlyName="TextBox" SpecialControlType="None">
+                  <TechnologyName>UIA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="FrameworkId">XAML</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                    <PropertyCondition Name="AutomationId">TextBox</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Group" Id="UITextEndGroup" FriendlyName="textEnd" SpecialControlType="None">
+              <TechnologyName>UIA</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="FrameworkId">XAML</PropertyCondition>
+                <PropertyCondition Name="ControlType">Group</PropertyCondition>
+                <PropertyCondition Name="AutomationId">textEnd</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBoxEdit" FriendlyName="TextBox" SpecialControlType="None">
+                  <TechnologyName>UIA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="FrameworkId">XAML</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                    <PropertyCondition Name="AutomationId">TextBox</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Button" Id="UIBestRoutesButton" FriendlyName="Best Routes" SpecialControlType="None">
+              <TechnologyName>UIA</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="FrameworkId">XAML</PropertyCondition>
+                <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                <PropertyCondition Name="AutomationId">searchBestBtn</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None" SessionId="0">
+          <TechnologyName>UIA</TechnologyName>
+          <WindowTitles />
+          <AndCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="FrameworkId">UIX</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Pane" Id="UIScrollerPane" FriendlyName="Scroller" SpecialControlType="None">
+              <TechnologyName>UIA</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="FrameworkId">UIX</PropertyCondition>
+                <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                <PropertyCondition Name="ClassName" />
+                <PropertyCondition Name="AutomationId">Scroller</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Text" Id="UITake158GetdownatyourText" FriendlyName="Take 158 . Get down at your destination, Piliyanda..." SpecialControlType="None">
+                  <TechnologyName>UIA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="FrameworkId">UIX</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Text</PropertyCondition>
+                    <PropertyCondition Name="AutomationId">MessageBoxMessage</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

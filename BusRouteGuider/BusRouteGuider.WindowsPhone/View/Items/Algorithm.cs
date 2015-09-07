@@ -149,7 +149,7 @@ namespace BusRouteGuider.View
 
         }
 
-        public void findRoutes(String start, String current, String end, LinkedList<String> tempRoutes, LinkedList<String> tempLocations, int depth) {
+        public String findRoutes(String start, String current, String end, LinkedList<String> tempRoutes, LinkedList<String> tempLocations, int depth) {
             if (depth > 0) {
 
             if (current.Equals(end)) {
@@ -256,11 +256,20 @@ namespace BusRouteGuider.View
                                 }
                             }
                         }
+
+
                     }
+
+                    
+
                 }
             }
+
         }
+            return "success";
+
         }
+
     }
 }
 

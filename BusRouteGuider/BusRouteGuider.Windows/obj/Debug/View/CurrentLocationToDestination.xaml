@@ -24,8 +24,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="326,356,0,0" TextWrapping="Wrap" Text="Current location will be tracked using GPS. Please turn GPS on." VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="30" FontStyle="Italic" />
 
         <TextBlock HorizontalAlignment="Left" Margin="484,432,0,0" TextWrapping="Wrap" Text="Destination:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="30" FontStyle="Italic" />
-        <Button Content="Search" Background="#FF141F2E" FontSize="30" HorizontalAlignment="Left" Margin="481,628,0,0" VerticalAlignment="Top" Width="142"/>
-        <Button x:ConnectionId='4' Content="Cancel" Background="#FF141F2E" FontSize="30" HorizontalAlignment="Left" Margin="753,628,0,0" VerticalAlignment="Top" Width="142"                     />
+        <Button x:ConnectionId='4' Content="Search" Background="#FF141F2E" FontSize="30" HorizontalAlignment="Left" Margin="481,628,0,0" VerticalAlignment="Top" Width="142"                       />
+        <Button x:ConnectionId='5' Content="Cancel" Background="#FF141F2E" FontSize="30" HorizontalAlignment="Left" Margin="753,628,0,0" VerticalAlignment="Top" Width="142"                     />
         <ComboBox x:Name="comboStart" HorizontalAlignment="Left" Margin="484,481,0,0" VerticalAlignment="Top" Width="403" Height="40" Background="#FF849EB8" PlaceholderText="Select a location" FontSize="22" FontWeight="Bold">
         </ComboBox>
 

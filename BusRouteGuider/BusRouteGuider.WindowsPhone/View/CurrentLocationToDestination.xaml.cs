@@ -204,7 +204,7 @@ namespace BusRouteGuider
             }
             else
             {
-                process.getRoutes("Katubedda", textLoc.Text.ToString(), dic, false);
+                process.getRoutes("Moratuwa Campus", textLoc.Text.ToString(), dic, false);
             }
         }
 

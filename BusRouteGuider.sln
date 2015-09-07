@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusRouteGuider.WindowsPhone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsBusRouteGuider", "UnitTestApp1\UnitTestsBusRouteGuider.csproj", "{00E14423-7E80-40D2-BB88-A8E0908510CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProjectBusRouteGuider", "CodedUITestProjectBusRouteGuider\CodedUITestProjectBusRouteGuider.csproj", "{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		BusRouteGuider\BusRouteGuider.Shared\BusRouteGuider.Shared.projitems*{4348fa21-710f-45c0-b13b-951ba8f2908d}*SharedItemsImports = 4
@@ -110,6 +112,20 @@ Global
 		{00E14423-7E80-40D2-BB88-A8E0908510CA}.Release|x86.ActiveCfg = Release|x86
 		{00E14423-7E80-40D2-BB88-A8E0908510CA}.Release|x86.Build.0 = Release|x86
 		{00E14423-7E80-40D2-BB88-A8E0908510CA}.Release|x86.Deploy.0 = Release|x86
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{0144BF93-CFA3-47FB-A50D-41303EB2CD1A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

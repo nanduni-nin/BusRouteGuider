@@ -17,14 +17,22 @@ namespace BusRouteGuider.ViewModel
     {
         private static Dictionary<String, Route> routes;            //Stores all the available routes
         private static Dictionary<String, Location> locations;      //Stores all the available locations  Banadarawela - Bandarawela Object
-        
+        private static SearchRoute instance = null;
+
         //Constructor for the class
         public SearchRoute() {            
             start();
         }
 
+        public static SearchRoute getInstance(){
+            if(instance == null) {
+             instance = new SearchRoute();
+            }
+            return instance;
+        }
+
         //Intialize the data structures
-        public void start() { 
+        public static void start() { 
             routes = new Dictionary<String, Route>();
             locations = new Dictionary<String, Location>();
             loadData();
@@ -34,7 +42,7 @@ namespace BusRouteGuider.ViewModel
 
 
         //Loading data from data file
-        public async void loadData() {
+        public async static void loadData() {
             Debug.WriteLine("Load Data Came");
             String[] lines;
             String[] temp;

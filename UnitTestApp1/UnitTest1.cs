@@ -55,6 +55,7 @@ namespace UnitTestApp1
             Assert.AreEqual(expected, actual);
         }
 
+        /*Check if the key of the route is in the dictionary*/
         [TestMethod]
         public void TestLocationFunctionality()
         {
@@ -69,6 +70,7 @@ namespace UnitTestApp1
             Assert.AreEqual(expected, actual);
         }
 
+        /*Check if the routeIn functionality genearates correct results*/
         [TestMethod]
         public void TestRoutesInPath()
         {
@@ -79,6 +81,19 @@ namespace UnitTestApp1
             String path = routes[routeNumber].getPathForTesting();
             String expected = "Fort->Kiribathgoda->Miriswatha->Nittambuwa->Warakapola->Nelundeniya->Galigamuwa->Kegalle->Mawanella->Kadugannawa->Peradeniya->Kandy";
             Assert.AreEqual(expected, path);
+        }
+
+        /*Check if the startToDestination functionality genearates correct results*/
+        public void TestStartToDestinationFunctionality()
+        {
+            BusRouteGuider.View.Algorithm alg = new BusRouteGuider.View.Algorithm();
+            String start = "Katubedda";
+            String end = "Pettah";
+            String expected = "success";
+            LinkedList<String> temproutes = new LinkedList<string>();
+            LinkedList<String> templocations = new LinkedList<string>();
+            String actual = alg.findRoutes(start,start,end,temproutes,templocations,3);
+            Assert.AreEqual(expected, actual);
         }
 
 

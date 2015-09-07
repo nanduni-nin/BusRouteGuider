@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.QualityTools.WindowsPhone.CodedUITestFramework</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute">
+            <summary>
+            Used to activate the extension so that we recognize a class as 
+            Unit Test extension class.
+            Use [CodedUITest] attribute in test class to indicate that it is a Coded UI Test
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute.#ctor">
+            <summary>
+            CodedUITestAttribute constructor that takes CodedUITestType.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodAttribute.RunDataDrivenTest(Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ITestMethod,Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataRowAttribute[])">
+            <summary>
+            Run data driven test method.
+            </summary>
+            <param name="testMethod">Test method to execute.</param>
+            <param name="dataRows">Data</param>
+            <returns>Results of execution.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodAttribute.Invoke(Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ITestMethod)">
+            <summary>
+            Invokes test method and captures errors
+            Returns a string. CodedUITestResultsViewer
+            displays this in Coded UI Test section in the resuts viewer.
+            </summary>
+            <returns>String containing results</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.QualityTools.CodedUITestFramework.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.QualityTools.CodedUITestFramework.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.QualityTools.CodedUITestFramework.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.QualityTools.CodedUITestFramework.Resources.ScreenShotFailure">
+            <summary>
+              Looks up a localized string similar to Failed to take screen shot: {0}.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.QualityTools.CodedUITestFramework.Resources.ScreenShotMessage">
+            <summary>
+              Looks up a localized string similar to Failure Screen Shot: {0}.
+            </summary>
+        </member>
+    </members>
+</doc>

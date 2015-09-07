@@ -1,0 +1,10 @@
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\bin\Debug\CodedUITestProjectBusRouteGuider.dll
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\bin\Debug\CodedUITestProjectBusRouteGuider.pdb
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\bin\Debug\CodedUITestProjectBusRouteGuider.dll.CodeAnalysisLog.xml
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\bin\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\bin\Debug\Microsoft.VisualStudio.QualityTools.WindowsPhone.CodedUITestFramework.dll
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\bin\Debug\Interop.UIAutomationClient.dll
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\bin\Debug\Microsoft.VisualStudio.QualityTools.WindowsPhone.CodedUITestFramework.xml
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\obj\Debug\CodedUITestProjectBusRouteGuider.csprojResolveAssemblyReference.cache
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\obj\Debug\CodedUITestProjectBusRouteGuider.dll
+C:\Users\Nands\Documents\Visual Studio 2013\Projects\BusRouteGuider\CodedUITestProjectBusRouteGuider\obj\Debug\CodedUITestProjectBusRouteGuider.pdb

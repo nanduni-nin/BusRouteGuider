@@ -91,5 +91,19 @@ namespace BusRouteGuider
             this.Frame.Navigate(typeof(MainPage));
         }
 
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (comboStart.SelectedItem.ToString() == null)
+            {
+                MessageDialog msgbox = new MessageDialog("Please add the destination.", "ERROR");
+                await msgbox.ShowAsync();
+                return;
+            }
+            else
+            {
+                process.getRoutes("Moratuwa Campus", comboStart.SelectedItem.ToString(), dic, false);
+            }
+        }
+
     }
 }

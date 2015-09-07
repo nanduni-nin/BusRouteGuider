@@ -30,6 +30,7 @@ namespace BusRouteGuider
     {
         Dictionary<String, Location> dic;
         BusRouteGuider.ViewModel.Algorithm process;
+        int option = 0;
 
         public RoutesViaLocation()
         {
@@ -209,8 +210,19 @@ namespace BusRouteGuider
 
         private void direct_Click(object sender, RoutedEventArgs e)
         {
-            //return to main page
-            this.Frame.Navigate(typeof(RoutesViaLocation));
+            if (option == 0)
+            {
+                textLoc.Focus(FocusState.Keyboard);
+            }
+            else
+            {
+                option = 0;
+            }
+        }
+
+        private void textLocFocusOn(object sender, RoutedEventArgs e)
+        {
+            option = 1;
         }
 
     }

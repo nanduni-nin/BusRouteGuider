@@ -31,6 +31,7 @@ namespace BusRouteGuider
     {
         Dictionary<String, Location> dic;
         BusRouteGuider.ViewModel.Algorithm process;
+        int option = 0;
 
         public CurrentLocationToDestination()
         {
@@ -177,7 +178,34 @@ namespace BusRouteGuider
 
         private void direct_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(CurrentLocationToDestination));
+            if (option == 0)
+            {
+                textLoc.Focus(FocusState.Keyboard);
+            }
+            else
+            {
+                option = 0;
+            }
+            
+        }
+
+        private void textLocOnFocus(object sender, RoutedEventArgs e)
+        {
+            option = 1;
+        }
+
+        private async void BtnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            if (textLoc.Text == null)
+            {
+                MessageDialog msgbox = new MessageDialog("Please add the destination.", "ERROR");
+                await msgbox.ShowAsync();
+                return;
+            }
+            else
+            {
+                process.getRoutes("Katubedda", textLoc.Text.ToString(), dic, false);
+            }
         }
 
         

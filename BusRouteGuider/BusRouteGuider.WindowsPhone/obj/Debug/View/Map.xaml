@@ -21,10 +21,11 @@
         <Maps:MapControl Name="MyMap"/>
 
         <!-- Button to set the location-->
-        <Button x:ConnectionId='1' x:Name="setPositionButton" Content="Set Position"                                 HorizontalAlignment="Center" Grid.Row="1" Grid.RowSpan="2" />
+        <Button x:ConnectionId='1' x:Name="setPositionButton" Content="Current Location"                                 HorizontalAlignment="Center" Grid.Row="1" Grid.RowSpan="2" />
 
         <!-- Slider for zooming in and out-->
         <Slider x:ConnectionId='2' x:Name="mySlider" Maximum="20" Minimum="10"                                    	Grid.Row="3" Margin="32,0,32,0" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Stretch" Height="50" Margin="0,0,0,40" VerticalAlignment="Bottom" Grid.RowSpan="2"/>
     </Grid>
 </Page>
 

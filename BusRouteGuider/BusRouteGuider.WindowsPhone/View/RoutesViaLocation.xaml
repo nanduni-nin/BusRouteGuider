@@ -7,6 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar Background="#FF141F2E">
+            <AppBarButton Icon="Accept" Label="Go" Click="direct_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
 
     <Grid Style="{StaticResource LayoutGridStyle2}">
         <!--Menu button -->
@@ -29,7 +34,7 @@
 
         <!--Text box for location-->
         <TextBlock HorizontalAlignment="Left" Margin="66,315,0,0" TextWrapping="Wrap" Text="Please select the location :" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" Width="334" />
-        <AutoSuggestBox  x:Name="textLoc" TextChanged="AutoSuggestBox_TextChanged" HorizontalAlignment="Center" Margin="30,374,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989">
+        <AutoSuggestBox  x:Name="textLoc" TextChanged="AutoSuggestBox_TextChanged" HorizontalAlignment="Center" Margin="0,374,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989" GotFocus="textLocFocusOn">
             <AutoSuggestBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">

@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Page.BottomAppBar>
-        <CommandBar>
+        <CommandBar Background="#FF141F2E">
             <AppBarButton x:ConnectionId='1' Icon="Accept"                      Label="Go"/>
         </CommandBar>
     </Page.BottomAppBar>

@@ -7,6 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar Background="#FF141F2E">
+            <AppBarButton Icon="Accept" Label="Go" Click="direct_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
 
 
     <Grid Style="{StaticResource LayoutGridStyle2}">
@@ -27,7 +32,7 @@
 
         <!-- Destination text box -->
         <TextBlock HorizontalAlignment="Left" Margin="62,368,0,0" TextWrapping="Wrap" Text="Destination:" VerticalAlignment="Top" Height="48" FontFamily="Global User Interface" FontSize="23" FontStyle="Italic" />
-        <AutoSuggestBox  x:Name="textLoc" TextChanged="AutoSuggestBox_TextChanged" HorizontalAlignment="Center" Margin="20,428,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989">
+        <AutoSuggestBox  x:Name="textLoc" TextChanged="AutoSuggestBox_TextChanged" HorizontalAlignment="Center" Margin="0,428,0,0" VerticalAlignment="Top" Width="322" PlaceholderText="Enter a location" Foreground="#FFF78989" GotFocus="textLocOnFocus">
             <AutoSuggestBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -39,7 +44,7 @@
 
 
         <!-- Search button -->
-        <Button Content="Search" Background="#141F2E" HorizontalAlignment="Center" Margin="0,0,0,72" VerticalAlignment="Bottom" Width="142" Click="Button_Click"/>
+        <Button Content="Search" Background="#141F2E" HorizontalAlignment="Center" Margin="0,0,0,46" VerticalAlignment="Bottom" Width="142" Click="BtnSearch_Click"/>
         
         <!-- Cancel button -->
 
